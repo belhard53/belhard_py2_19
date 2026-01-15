@@ -33,3 +33,25 @@ while 1:
 #     Соединение закрыто (data = b'')
 #     Произошла ошибка (исключение)
 #     Истек таймаут (если установлен sock.settimeout(1))    
+
+
+
+# def receive_all(sock, buffer_size=4096):
+#     """Получить все данные до закрытия соединения"""
+#     data = b''
+#     while True:
+#         chunk = sock.recv(buffer_size)
+#         if not chunk:  # Пустые данные = соединение закрыто
+#             break
+#         data += chunk
+#     return data
+
+# def receive_all(sock, size):
+#     """Получить точно size байт"""
+#     data = b''
+#     while len(data) < size:
+#         chunk = sock.recv(min(size - len(data), 4096))
+#         if not chunk:
+#             break
+#         data += chunk
+#     return data

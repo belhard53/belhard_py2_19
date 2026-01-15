@@ -1,6 +1,7 @@
 import socket
 
 HOST = ('127.0.0.1', 7777)
+# HOST = ('192.168.0.31', 7777)
 
 # SOCK_DGRAM - UDP,  SOCK_STREAM - TCP, AF_INET - ip v4
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -15,6 +16,10 @@ data = sock.recv(1024).decode() # залипает и ждет ответ
 print(data)
 
 sock.close()
+
+# аналог команды send_all()
+# while sent < len(send_data):
+#     sent = sent + sock.send(send_data[sent:])
 
 
 

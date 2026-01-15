@@ -1,0 +1,70 @@
+curl — универсальная командная строка для HTTP-запросов (GET, POST, PUT, DELETE и т.д.).
+
+
+
+Основные ключи
+    -X	HTTP метод	curl -X POST url
+    -d	POST данные	curl -d "a=1" url
+    -F	Форма/файл	curl -F "file=@doc.pdf" url
+    -H	Заголовок	curl -H "Auth: token" url
+    -o	Сохранить как	curl -o file.txt url
+    -O	Оригинальное имя	curl -O url/file.zip
+    -I	Только заголовки	curl -I ya.ru
+    -u	Логин:пароль	curl -u user:pass url
+    -k	Игнорировать SSL	curl -k https://badssl.com
+    -b	Куки из файла	curl -b cookies.txt url
+
+
+
+Примеры:
+    GET запрос       | curl https://httpbin.org/get                                                                       
+    Скачать файл     | curl -O https://example.com/file.zip                                                               
+    POST JSON        | curl -X POST -H "Content-Type: application/json" -d "{\\"key\\":\\"value\\"}" https://httpbin.org/post 
+    С заголовками    | curl -H "Authorization: Bearer token123" https://api.example.com                                   
+    Сохранить в файл | curl -o myfile.html https://example.com 
+
+    curl ya.ru                    # GET
+    curl -X POST -d "a=1" url    # POST form  
+    curl -H "Content-Type: json" -d "{\"x\":1}" url  # POST JSON
+    curl -u user:pass url        # Авторизация
+    curl -o file.jpg img.jpg     # Скачать
+    curl -F "file=@doc.pdf" url  # Загрузить файл
+    curl -I ya.ru                # Заголовки
+    curl -s --max-time 5 url     # Тихо+таймаут
+    curl -v url                  # Отладка
+    curl -k https://ssl.com      # Игнорировать SSL                                                           
+
+
+    # 2. МЕТОДЫ HTTP
+    curl -X POST https://httpbin.org/post
+    curl -X PUT https://httpbin.org/put  
+    curl -X DELETE https://httpbin.org/delete
+
+    # 3. ЗАГОЛОВКИ
+    curl -H "User-Agent: MyApp/1.0" https://httpbin.org/user-agent
+    curl -H "Accept: application/json" https://httpbin.org/headers
+
+    # 4. POST данные
+    curl -d "name=Иван&age=15" https://httpbin.org/post
+    curl -X POST -F "file=@document.pdf" https://httpbin.org/post
+
+    # 5. JSON
+    curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"Иван\",\"age\":15}" https://httpbin.org/post
+
+    # 6. АВТОРИЗАЦИЯ
+    curl -u user:pass https://httpbin.org/basic-auth/user/pass
+    curl -H "Authorization: Bearer abc123" https://httpbin.org/bearer
+
+    # 7. ФАЙЛЫ
+    curl -O https://www.example.com/image.jpg     # Скачать с оригинальным именем
+    curl -o myimage.jpg https://example.com/img   # Сохранить как myimage.jpg
+
+    # 8. ТИХИЙ режим (без прогресса)
+    curl -s https://example.com
+
+    # 9. КУКИ
+    curl -c cookies.txt https://example.com
+    curl -b cookies.txt https://example.com/profile
+
+    # 10. SSL игнорировать
+    curl -k https://selfsigned.badssl.com
