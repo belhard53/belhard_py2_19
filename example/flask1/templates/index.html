@@ -8,22 +8,50 @@
          /* CSS (Cascading Style Sheets - каскадные таблицы стилей) — 
             это язык, который используется для описания внешнего 
             вида и форматирования веб-страниц */
-
+        
         body{
-            background-color: rgb(206, 190, 238);
+            background-color: rgb(206, 190, 238);            
         }
 
         img{
             width: 200px;
             height: 200px;
         }
+
+        a{
+            background-color: rgb(176, 161, 206);
+            padding: 10px;
+            margin: 10px;
+            border: 1px black solid;
+            color: black;
+            display: inline-block;
+            transition: all 400ms;
+            text-decoration: none;
+        }
+
+        a:hover{
+            background-color: rgb(156, 136, 202);            
+            transform: translateY(-3px);
+            box-shadow: 0 3px 5px 0px rgb(80 80 80);
+        }
+
+        h1{
+            text-align: center;
+        }
     </style>
-</head>
+</head> 
 <body>
+
+    {% if user %}
+        <!-- словарь в шаблонах можно как обычно, а так же через . как свойство объекта  -->
+        <p style="text-align: right;">Hello {{ user.fname }} {{ user['lname']}}</p> 
+    {% endif %}
+
     <h1>HELLO FLASK</h1>
-    <p> Hello {{ name }} </p>
+    <hr>
 
     <a href="/users/"> ССЫЛКА НА USERS </a>
+    <a href="/form1/"> ССЫЛКА НА FORM </a>
     
     
     {%set q = 1 %}   <!-- создание переменной -->
@@ -43,9 +71,13 @@
 
     <br>
     <br>
-    
+
     <p>Лиса из api</p>
     <img width="100" src="https:\/\/randomfox.ca\/images\/49.jpg" alt="123">
     
 </body>
 </html>
+
+
+<!-- emmet -->
+<!-- div>p>div*5{user$} --> 

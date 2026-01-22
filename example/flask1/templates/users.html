@@ -8,8 +8,11 @@
         /* CSS (Cascading Style Sheets - каскадные таблицы стилей) — 
             это язык, который используется для описания внешнего 
             вида и форматирования веб-страниц */
+
+
         body {
             background-color: rgb(238, 209, 234);
+            /* background-color: rgb(44, 42, 42); */
             color: rgb(44, 42, 42);
         }
         span{
@@ -19,12 +22,21 @@
         }
 
         a{  
-            background-image: url(https://kartinki.pics/uploads/posts/2021-03/1616039993_51-p-fon-dlya-knopki-60.png);
-            /* background-image: url(/static/pic/but1.png); */
-            background-size: cover;
             padding: 10px 30px;            
             margin: 20px;
-            display: inline-block;                   
+            display: inline-block;  
+
+            /* кнопка с картинкой */
+            /* background-image: url(/static/pic/but1.png); */
+            /* background-image: url(https://kartinki.pics/uploads/posts/2021-03/1616039993_51-p-fon-dlya-knopki-60.png); */            
+            /* background-size: cover; */
+            
+            /* без картинки */
+            border: 1px solid black; 
+            border-radius: 10px;     
+            background-color: #cfa4c5;
+            color: black;        
+            box-shadow:  5px 6px 12px;
         }
 
         a:active{
@@ -33,20 +45,26 @@
         }
 
         p {
+            /* text-align: center; */
             border: 1px solid black;
             background-color: rgb(235, 201, 243);
             margin: 2px;
             padding: 5px;
+            /* padding: 15px 30px; */
+            /* padding: 20px 10px 30px 50px; */
+            /* padding-left: 10px; */
+
         }
 
         p:nth-child(2n){ /*каждый 2ой */
-            
+        /* p:nth-child(3n+2){ каждый 3ий  со 2го        */
             background-color: rgb(208, 166, 208);
         }
 
         p:hover { /*при наведении мышкой*/
             background-color: rgb(157, 123, 157);
             color: rgb(82, 9, 79);
+            /* font-size: 2rem; */
             
         }
 
@@ -56,6 +74,7 @@
 </head>
 <body>
     <h1>HELLO USERS</h1>
+    посещений - {{n}}
     <!-- <p> {{ users }} </p> -->
 
     {% for user in users %}
@@ -81,6 +100,8 @@
         loop.depth0     {# уровень вложенности цикла (начинается с 0) #} -->
     
 
-    <a href="/"> main </a>
+    <a href="/"> main1 </a>
+    <a href="/"> main2 </a>
+    <a href="/"> main3 </a>
 </body>
 </html>

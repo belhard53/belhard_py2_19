@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(219, 200, 200);
+            text-align: center;
+        }
+
+        .err{
+            color: brown;
+        }
+
+        label{
+            width: 70px;
+            display: inline-block; /*что бы label можно было задать ширину*/
+            text-align: right;
+        }
+        form{
+            width: 400px;
+            text-align: center;
+            margin: auto;
+            
+        }
+        
+        input:focus{
+            /* срабатывает только когда элемент в фокусе */
+            background-color: rgb(232 208 253);
+        }
+
+        fieldset{
+            background-color: rgb(192, 175, 175);
+            box-shadow:  3px 3px 10px 0px;
+            border-radius: 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>ФОРМА 1</h1>
+    
+    <p class="err" > {{ err }} </p>
+
+    <form action="" method="post">
+        <fieldset>
+        <legend>Форма 1</legend>
+            <p>
+                <!-- старый вариант label -->
+                <!-- <label> Имя
+                    <input type="text" name="name" required placeholder="Имя" value="{{name}}">
+                </label> -->
+                <label for="name">Имя</label>
+                <input type="text" id="name" name="name" required placeholder="Имя" value="{{name}}">
+            </p>
+            <p> 
+                <label for="surname"> Фамилия </label>
+                <input type="text" name="surname" id="surname" placeholder="Фамилия" >
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email"  id="email" name="email" placeholder="email">
+            </p>
+            <p>
+                <label for="age">Возраст</label>
+                <input type="number"  id="age" name="age" placeholder="возраст">
+            </p>
+            <p> 
+                <label for="pass">Пароль</label>
+                <input type="password"  id="pass" name="pass" placeholder="пароль">
+            </p>
+            
+            <p>
+            <input type="submit">
+            <input type="reset">
+            </p>
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
