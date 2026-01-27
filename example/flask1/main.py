@@ -1,7 +1,7 @@
 from flask import (Flask, jsonify, render_template, 
                     session, request, redirect, url_for)
 import os
-
+from functools import wraps
 
 # Flask по умолчанию хранит данные сессий на стороне клиента в виде файла cookie. 
 # Однако, для обеспечения безопасности, Flask использует подписанные cookie, 
@@ -39,23 +39,47 @@ app.config['SECRET_KEY'] = 'my secret key sadj;ask dj;askjd9032094u'
 
 users=['user1', 'user22', 'user333', 'suer4', 'user55', 'user6666']
 
-context = {"q":11, "w":22}
+context = {'debug':True}
 
-user = {'fname':'Vasya', 'lname':'Vasilyev'}
+
+def only_authorized(f):
+    @wraps(f)
+    def wrapper(*a, **kw):        
+        # if not 'login' in session:
+            # return redirect(url_for('login'))    
+        res = f(*a, **kw)        
+        return res
+    return wrapper
+
+def get_context(f):    
+    @wraps(f)
+    def wrapper(*a, **kw):
+        # if 'login' in session:                        
+            global context             
+            context['user'] = {'fname':'Vasya', 'lname':'Vasilyev'}
+            res = f(*a, **kw)        
+            return res
+    return wrapper
+    
+    
 
 @app.route('/')
+@get_context
 def index():
     # return "Hello FLASK"
+    session['login'] = 'Vasya'
     return render_template('index.html', 
                            name="Vasya1", 
                            title="Some title", 
-                           image = 'bear',
-                           user=user,
-                           **context # q=11, w=22
+                           image = 'bear',                           
+                           **context 
                            )
                             
 
+
 @app.route('/users/')
+@only_authorized
+@get_context
 def users_():
     if False:
         return redirect(url_for('index'))       
@@ -68,16 +92,15 @@ def users_():
     
     return render_template(
                 'users.html', 
-                users=users, 
+                users=users,                 
                 len=len, # отдельно передаем функцию len
-                n=session['n']
+                n=session['n'],
+                **context 
     )    
 
 @app.route('/test/<int:num>/')
 def test(num):
     return f"test №{num}."
-
-
 
 
 @app.route('/api/')
@@ -88,6 +111,9 @@ def f2():
 def message(login, mes):
     return render_template("message.html", user=login, mes=mes)
 
+
+@only_authorized
+@get_context
 @app.route("/form1/", methods = ['GET', 'POST'])
 def form1():
     login = ''
@@ -108,7 +134,12 @@ def form1():
             return redirect(url_for('users_'))
         
         
-    return render_template("form1.html", err=err, name=login)
+    return render_template("form1.html", err=err, name=login, **context )
+
+
+@app.route('/login/')
+def login():
+    return "login"
 
 @app.errorhandler(404)
 def page_not_found(error):

@@ -1,47 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            background-color: rgb(219, 200, 200);
-            text-align: center;
-        }
+{% extends 'base.html' %}
 
-        .err{
-            color: brown;
-        }
+{% block title %}  Form1 {% endblock %}
 
-        label{
-            width: 70px;
-            display: inline-block; /*что бы label можно было задать ширину*/
-            text-align: right;
-        }
-        form{
-            width: 400px;
-            text-align: center;
-            margin: auto;
-            
-        }
-        
-        input:focus{
-            /* срабатывает только когда элемент в фокусе */
-            background-color: rgb(232 208 253);
-        }
-
-        fieldset{
-            background-color: rgb(192, 175, 175);
-            box-shadow:  3px 3px 10px 0px;
-            border-radius: 5px;
-        }
+{% block header_message %}
+    <h1> HELLO FORM1 </h1>
+{% endblock %}
 
 
-    </style>
-</head>
-<body>
-    <h1>ФОРМА 1</h1>
+{% block content %}
     
     <p class="err" > {{ err }} </p>
 
@@ -81,5 +47,4 @@
 
     </form>
 
-</body>
-</html>
+{% endblock %}

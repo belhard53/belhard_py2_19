@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %} HELLO FLASK {% endblock %}</title>
+    <!-- <title>{% if title %} {{title}} {% else%} Flask1 {%endif%} </title> -->
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+
+    {% if user %}
+        <!-- словарь в шаблонах можно как обычно, а так же через . как свойство объекта  -->
+        <p style="text-align: right;">Hello {{ user.fname }} {{ user['lname']}}</p> 
+    {% endif %}
+
+    {% block header_message %}
+    {% endblock %}
+    
+    <hr>
+
+    <nav>
+        <a href="/"> ССЫЛКА НА ГЛАВНУЮ </a>
+        <a href="/users/"> ССЫЛКА НА USERS </a>
+        <a href="{{url_for('form1')}}"> ССЫЛКА НА FORM </a>
+    </nav>
+
+
+    {% block content %}
+
+    {% endblock %}
+    
+</body>
+</html>

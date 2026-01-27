@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+  <!-- Указывает кодировку символов документа. UTF-8 включает большинство символов мировых языков. -->
+  <meta charset="UTF-8">
+
+  <!-- Заголовок документа. Отображается на вкладке браузера и в результатах поиска. -->
+  <title>HTML Basics</title>
+
+  <!-- Основная иконка сайта (фавиконка). Отображается на вкладке браузера, в закладках, в истории. -->
+  <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+
+  <!-- Альтернативные иконки для Apple-устройств (iPhone, iPad), когда пользователь добавляет сайт на домашний экран. -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+
+  <!-- Мета-теги для поисковой оптимизации (SEO) -->
+  <!-- Краткое описание страницы. Часто отображается в сниппете поисковой выдачи. -->
+  <meta name="description" content="Test web page">
+  <!-- Ключевые слова, связанные со страницей. Современные поисковики почти не используют этот тег. -->
+  <meta name="keywords" content="html, webdev, Yauhen">
+  <!-- Указание автора страницы. -->
+  <meta name="author" content="Yauhen Kavalchuk">
+
+  <!--
+    ОЧЕНЬ ВАЖНЫЙ тег для адаптивного дизайна.
+    Управляет размером и масштабированием области просмотра (viewport) на мобильных устройствах.
+    width=device-width: ширина страницы равна ширине экрана устройства.
+    initial-scale=1: начальный масштаб страницы равен 100%.
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--
+    Другой вариант viewport. 'user-scalable=no' запрещает пользователю масштабировать страницу (зум).
+    НЕ РЕКОМЕНДУЕТСЯ к использованию, так как ухудшает доступность для людей с ослабленным зрением.
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+
+  <!--
+    Указывает браузеру Internet Explorer использовать самый современный (edge) доступный режим отображения.
+    Нужен для совместимости старых версий IE с современными веб-стандартами.
+  -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Подключение внешней таблицы стилей (CSS-файла). -->
+  <link rel="stylesheet" href="static/css/styles.css">
+
+  <!--
+    Внутренние (локальные) стили, заданные прямо в HTML-документе.
+    Стили, описанные здесь, применяются только к этой странице.
+  -->
+  <style>
+    div {
+      background-color: red;
+    }
+  </style>
+
+  
+  <!-- Подключение локальных шрифтов через CSS -->
+    <style>
+        /* Объявление шрифта */
+        @font-face {
+        font-family: 'MyLocalFont';
+        src: url('/fonts/myfont.woff2') format('woff2'),
+            url('/fonts/myfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap; /* Оптимизация загрузки */
+        }
+        
+        /* Применение шрифта */
+        body {
+        font-family: 'MyLocalFont', sans-serif;
+        /* если нет MyLocalFont - любой системный sans-serif шрифт ✓ (гарантированно есть) */
+        }
+    </style>
+
+  <!-- Подключение шрифта 'Roboto' с сервиса Google Fonts. -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+</head>

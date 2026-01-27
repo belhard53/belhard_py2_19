@@ -1,0 +1,29 @@
+
+
+.err{
+    color: brown;
+}
+
+label{
+    width: 70px;
+    display: inline-block; /*что бы label можно было задать ширину*/
+    text-align: right;
+}
+form{
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+input:focus{
+    /* срабатывает только когда элемент в фокусе */
+    background-color: rgb(232 208 253);
+}
+
+fieldset{
+    background-color: rgb(186, 179, 198); 
+    box-shadow:  3px 3px 10px 0px;
+    border-radius: 5px;
+    margin-top: 30px;
+}

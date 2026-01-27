@@ -1,0 +1,39 @@
+
+    /* CSS (Cascading Style Sheets - каскадные таблицы стилей) — 
+    это язык, который используется для описания внешнего 
+    вида и форматирования веб-страниц */
+
+
+@import url("users.css");
+@import url("form1.css");
+
+body{
+    background-color: rgb(215, 205, 234);            
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+a{
+    background-color: rgb(194, 182, 218);
+    padding: 10px;
+    margin: 10px;
+    border: 1px black solid;
+    color: black;
+    display: inline-block;
+    transition: all 400ms;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+a:hover{
+    background-color: rgb(156, 136, 202);            
+    transform: translateY(-3px);
+    box-shadow: 0 3px 5px 0px rgb(80 80 80);
+}
+
+h1{
+    text-align: center;
+}
