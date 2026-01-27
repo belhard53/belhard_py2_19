@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВСЕ HTML теги (100+)</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Segoe UI', sans-serif; 
+            line-height: 1.6; 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        h1 { 
+            text-align: center; 
+            color: #2c3e50; 
+            margin-bottom: 40px; 
+            font-size: 2.5rem;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 { 
+            color: #2c3e50; 
+            border-bottom: 4px solid #3498db; 
+            padding-bottom: 12px; 
+            margin: 40px 0 25px;
+            font-size: 1.8rem;
+        }
+        h3 { 
+            color: #2980b9; 
+            margin: 25px 0 15px; 
+            font-size: 1.3rem;
+        }
+        .group { 
+            background: rgba(255,255,255,0.95); 
+            margin: 25px 0; 
+            padding: 25px; 
+            border-radius: 15px; 
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+        }
+        code { 
+            background: #ecf0f1; 
+            padding: 4px 8px; 
+            border-radius: 6px; 
+            font-family: 'Fira Code', monospace; 
+            color: #e74c3c;
+        }
+        .demo { 
+            background: linear-gradient(135deg, #e8f4fd, #d1ecf1); 
+            padding: 20px; 
+            border-left: 6px solid #3498db; 
+            margin: 15px 0; 
+            border-radius: 8px;
+            font-size: 0.95rem;
+        }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin: 15px 0; 
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        th, td { 
+            border: 1px solid #e1e8ed; 
+            padding: 12px 15px; 
+            text-align: left; 
+        }
+        th { 
+            background: linear-gradient(135deg, #3498db, #2980b9); 
+            color: white; 
+            font-weight: 600;
+        }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .tag-list { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 8px; 
+            margin: 10px 0;
+        }
+        .tag { 
+            background: #3498db; 
+            color: white; 
+            padding: 4px 10px; 
+            border-radius: 20px; 
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <h1>🏗️ ВСЕ HTML5 теги (120+) по группам</h1>
+    
+    <!-- 1. ДОКУМЕНТ -->
+    <div class="group">
+        <h2>📄 Структура документа</h2>
+        <table>
+            <tr><th>Тег</th><th>Назначение</th><th>Атрибуты</th><th>Пример</th></tr>
+            <tr><td><code>&lt;!DOCTYPE html&gt;</code></td><td>Тип документа</td><td>-</td><td>Обязателен первым!</td></tr>
+            <tr><td><code>&lt;html&gt;</code></td><td>Корень</td><td>lang</td><td><code>&lt;html lang="ru"&gt;</code></td></tr>
+            <tr><td><code>&lt;head&gt;</code></td><td>Метаданные</td><td>-</td><td>Невидимый контент</td></tr>
+            <tr><td><code>&lt;body&gt;</code></td><td>Контент</td><td>-</td><td>Всё видимое</td></tr>
+            <tr><td><code>&lt;title&gt;</code></td><td>Заголовок</td><td>-</td><td>Вкладка браузера</td></tr>
+        </table>
+    </div>
+
+    <!-- 2. СЕМАНТИКА -->
+    <div class="group">
+        <h2>🎨 Семантика</h2>
+        <table>
+            <tr><th>Тег</th><th>Назначение</th><th>Пример</th></tr>
+            <tr><td><code>&lt;header&gt;</code></td><td>Шапка</td><td>Логотип, меню</td></tr>
+            <tr><td><code>&lt;nav&gt;</code></td><td>Навигация</td><td>Главное меню</td></tr>
+            <tr><td><code>&lt;main&gt;</code></td><td>Основной контент</td><td>**1 на странице**</td></tr>
+            <tr><td><code>&lt;article&gt;</code></td><td>Статья</td><td>Блог-пост</td></tr>
+            <tr><td><code>&lt;section&gt;</code></td><td>Секция</td><td>Блок с h2-h6</td></tr>
+            <tr><td><code>&lt;aside&gt;</code></td><td>Боковая панель</td><td>Реклама, виджеты</td></tr>
+            <tr><td><code>&lt;footer&gt;</code></td><td>Подвал</td><td>Copyright, контакты</td></tr>
+            <tr><td><code>&lt;figure&gt;</code></td><td>Изображение+описание</td><td><code>&lt;figcaption&gt;</code></td></tr>
+            <tr><td><code>&lt;details&gt;</code></td><td>Раскрывашка</td><td><code>&lt;summary&gt;</code></td></tr>
+        </table>
+        <div class="demo">
+            <code>&lt;header&gt;&lt;nav&gt;Меню&lt;/nav&gt;&lt;/header&gt;<br>
+            &lt;main&gt;&lt;article&gt;&lt;h1&gt;Статья&lt;/h1&gt;&lt;/article&gt;&lt;/main&gt;<br>
+            &lt;details&gt;&lt;summary&gt;Клик&lt;/summary&gt;Скрытый текст&lt;/details&gt;</code>
+        </div>
+    </div>
+
+    <!-- 3. ЗАГОЛОВКИ -->
+    <div class="group">
+        <h2>📊 Заголовки H1-H6</h2>
+        <div class="tag-list">
+            <span class="tag">h1</span><span class="tag">h2</span><span class="tag">h3</span><span class="tag">h4</span><span class="tag">h5</span><span class="tag">h6</span>
+        </div>
+        <div class="demo">h1 > h2 > h3 > h4 > h5 > h6 (логическая иерархия!)</div>
+    </div>
+
+    <!-- 4. ТЕКСТ -->
+    <div class="group">
+        <h2>✍️ Текстовые элементы</h2>
+        <table>
+            <tr><th>Семантика</th><th>Акценты</th><th>Код</th><th>Цитаты</th></tr>
+            <tr><td><code>&lt;p&gt;</code></td><td><code>&lt;strong&gt;</code></td><td><code>&lt;code&gt;</code></td><td><code>&lt;blockquote&gt;</code></td></tr>
+            <tr><td><code>&lt;br&gt;</code></td><td><code>&lt;em&gt;</code></td><td><code>&lt;pre&gt;</code></td><td><code>&lt;q&gt;</code></td></tr>
+            <tr><td>-</td><td><code>&lt;b&gt;</code> <code>&lt;i&gt;</code></td><td><code>&lt;samp&gt;</code></td><td>-</td></tr>
+            <tr><td>-</td><td><code>&lt;u&gt;</code></td><td><code>&lt;kbd&gt;</code></td><td>-</td></tr>
+        </table>
+        <div class="demo">
+            <strong>Важно!</strong> <em>Акцент</em> <code>console.log()</code> <kbd>Ctrl+C</kbd>
+        </div>
+    </div>
+
+    <!-- 5. СПИСКИ -->
+    <div class="group">
+        <h2>📋 Списки</h2>
+        <table>
+            <tr><th>Тип</th><th>Теги</th><th>Элемент</th></tr>
+            <tr><td>Маркированный</td><td><code>&lt;ul&gt;&lt;li&gt;</code></td><td>• диск</td></tr>
+            <tr><td>Нумерованный</td><td><code>&lt;ol&gt;&lt;li&gt;</code></td><td>1, 2, 3</td></tr>
+            <tr><td>Определения</td><td><code>&lt;dl&gt;&lt;dt&gt;&lt;dd&gt;</code></td><td>Термин: описание</td></tr>
+        </table>
+    </div>
+
+    <!-- 6. ТАБЛИЦЫ -->
+    <div class="group">
+        <h2>📈 Таблицы</h2>
+        <div class="tag-list">
+            <span class="tag">table</span><span class="tag">thead</span><span class="tag">tbody</span><span class="tag">tfoot</span>
+            <span class="tag">tr</span><span class="tag">th</span><span class="tag">td</span><span class="tag">caption</span>
+        </div>
+        <div class="demo">
+            <code>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Имя&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;<br>
+            &lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Иван&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</code>
+        </div>
+    </div>
+
+    <!-- 7. ФОРМЫ (РАСШИРЕННО) -->
+    <div class="group">
+        <h2>📝 Формы (20+ тегов)</h2>
+        <table>
+            <tr><th>Контейнеры</th><th>Поля ввода</th><th>Выбор</th><th>Кнопки</th></tr>
+            <tr><td><code>&lt;form&gt;</code></td><td><code>&lt;input&gt;</code></td><td><code>&lt;select&gt;</code></td><td><code>&lt;button&gt;</code></td></tr>
+            <tr><td><code>&lt;fieldset&gt;</code></td><td><code>&lt;textarea&gt;</code></td><td><code>&lt;optgroup&gt;</code></td><td>-</td></tr>
+            <tr><td><code>&lt;legend&gt;</code></td><td>-</td><td><code>&lt;option&gt;</code></td><td>-</td></tr>
+        </table>
+        <h3>input type:</h3>
+        <div class="tag-list">
+            <span class="tag">text</span><span class="tag">password</span><span class="tag">email</span><span class="tag">number</span>
+            <span class="tag">checkbox</span><span class="tag">radio</span><span class="tag">file</span><span class="tag">date</span><span class="tag">color</span>
+        </div>
+    </div>
+
+    <!-- 8. МУЛЬТИМЕДИА -->
+    <div class="group">
+        <h2>🎬 Мультимедиа</h2>
+        <table>
+            <tr><th>Тип</th><th>Теги</th><th>Атрибуты</th></tr>
+            <tr><td>Изображение</td><td><code>&lt;img&gt;</code></td><td>src, alt, width, height</td></tr>
+            <tr><td>Видео</td><td><code>&lt;video&gt;</code></td><td>controls, autoplay, loop</td></tr>
+            <tr><td>Аудио</td><td><code>&lt;audio&gt;</code></td><td>controls</td></tr>
+            <tr><td>Вставка</td><td><code>&lt;iframe&gt;</code></td><td>src, width, height</td></tr>
+            <tr><td>Карта</td><td><code>&lt;picture&gt;</code></td><td>Адаптивные изображения</td></tr>
+            <tr><td>Источник</td><td><code>&lt;source&gt;</code></td><td>Форматы media</td></tr>
+        </table>
+    </div>
+
+    <!-- 9. ИНТЕРАктив -->
+    <div class="group">
+        <h2>⚡ Интерактивность</h2>
+        <div class="tag-list">
+            <span class="tag">progress</span><span class="tag">meter</span><span class="tag">output</span>
+            <span class="tag">canvas</span><span class="tag">svg</span>
+        </div>
+        <div class="demo">
+            <code>&lt;progress value="70" max="100"&gt;&lt;/progress&gt;<br>
+            &lt;meter value="7" min="0" max="10"&gt;&lt;/meter&gt;</code>
+        </div>
+    </div>
+
+    <!-- 10. META -->
+    <div class="group">
+        <h2>🔧 Head элементы</h2>
+        <table>
+            <tr><th>Тип</th><th>Тег</th><th>Назначение</th></tr>
+            <tr><td>Кодировка</td><td><code>&lt;meta charset&gt;</code></td><td>UTF-8</td></tr>
+            <tr><td>Viewport</td><td><code>&lt;meta name="viewport"&gt;</code></td><td>Мобильная адаптация</td></tr>
+            <tr><td>CSS</td><td><code>&lt;link rel="stylesheet"&gt;</code></td><td>Подключение стилей</td></tr>
+            <tr><td>JS</td><td><code>&lt;script&gt;</code></td><td>Скрипты</td></tr>
+            <tr><td>Иконка</td><td><code>&lt;link rel="icon"&gt;</code></td><td>Favicon</td></tr>
+            <tr><td>Описание</td><td><code>&lt;meta name="description"&gt;</code></td><td>SEO</td></tr>
+        </table>
+    </div>
+
+    <!-- 11. РЕДКИЕ -->
+    <div class="group">
+        <h2>🔍 Редкие/специальные</h2>
+        <div class="tag-list">
+            <span class="tag">bdi</span><span class="tag">bdo</span><span class="tag">cite</span><span class="tag">data</span><span class="tag">dfn</span>
+            <span class="tag">abbr</span><span class="tag">time</span><span class="tag">var</span><span class="tag">wbr</span>
+            <span class="tag">template</span><span class="tag">slot</span>
+        </div>
+    </div>
+
+    <footer style="text-align: center; margin-top: 60px; padding: 30px; background: rgba(255,255,255,0.9); border-radius: 15px;">
+        
+        <p><strong>Правило:</strong> <code>main &lt; article/section &lt; h1-h6</code></p>
+        
+    </footer>
+</body>
+</html>
