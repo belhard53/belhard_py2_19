@@ -7,9 +7,18 @@
     table,
     table * {
       border: 1px solid #000;
-      /* border-collapse: collapse; */
-      /* border-collapse: separate; */
+      
+      /*одинарные линии обводки*/
+      /* border-collapse: collapse;  */
+      
+      /*двойные линии обводки - по умолчанию*/
+      /* border-collapse: separate; */       
     }
+
+    .single_border{
+        border-collapse: collapse;
+      }
+
   </style>
 </head>
 <body>
@@ -51,7 +60,7 @@
   <hr>
 
   <!-- Simple example of table -->
-  <table>
+  <table class="single_border">
     <tr>
       <td>Front-end</td>
       <td>1 Person</td>
