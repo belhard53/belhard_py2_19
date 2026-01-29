@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Шпаргалка для новичка</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin: 25px 0 15px;
+        }
+        
+        h3 {
+            color: #2980b9;
+            margin: 20px 0 10px;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            overflow: scroll
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .example {
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        code {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        pre {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 15px 0;
+            tab-size: 2;
+        }
+        
+        .important {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        th {
+            background: #3498db;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+        
+        .tip {
+            background: #d1ecf1;
+            border-left: 4px solid #17a2b8;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #7f8c8d;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚀 CSS Шпаргалка для новичка</h1>
+        <p>Все самые важные концепции CSS в одном месте</p>
+    </header>
+    
+    <div class="container">
+        <!-- Основы CSS -->
+        <div class="card">
+            <h2>📝 Основы CSS</h2>
+            <p>CSS (Cascading Style Sheets) - язык стилей, который определяет внешний вид HTML-документа.</p>
+            
+            <h3>Синтаксис:</h3>
+            <pre>
+селектор {
+    свойство: значение;
+    свойство: значение;
+}</pre>
+            
+            <div class="example">
+                <p><strong>Пример:</strong></p>
+                <pre>
+h1 {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+}</pre>
+            </div>
+            
+            <div class="important">
+                <p><strong>Важно:</strong> CSS можно подключать тремя способами:</p>
+                <ol>
+                    <li>Внешний файл: <code>&lt;link rel="stylesheet" href="style.css"&gt;</code></li>
+                    <li>Внутри HTML: <code>&lt;style&gt; ... &lt;/style&gt;</code></li>
+                    <li>Инлайн: <code>&lt;div style="color:red"&gt;</code></li>
+                </ol>
+            </div>
+        </div>
+        
+        <!-- Селекторы -->
+        <div class="card">
+            <h2>🎯 Селекторы</h2>
+            <p>Селекторы определяют, к каким элементам применять стили.</p>
+            
+            <table>
+                <tr>
+                    <th>Селектор</th>
+                    <th>Пример</th>
+                    <th>Описание</th>
+                </tr>
+                <tr>
+                    <td>По тегу</td>
+                    <td><code>p</code></td>
+                    <td>Все параграфы</td>
+                </tr>
+                <tr>
+                    <td>По классу</td>
+                    <td><code>.my-class</code></td>
+                    <td>Элементы с class="my-class"</td>
+                </tr>
+                <tr>
+                    <td>По ID</td>
+                    <td><code>#my-id</code></td>
+                    <td>Элемент с id="my-id"</td>
+                </tr>
+                <tr>
+                    <td>Универсальный</td>
+                    <td><code>*</code></td>
+                    <td>Все элементы</td>
+                </tr>
+                <tr>
+                    <td>По атрибуту</td>
+                    <td><code>[type="text"]</code></td>
+                    <td>Элементы с атрибутом type="text"</td>
+                </tr>
+            </table>
+            
+            <h3>Комбинаторы:</h3>
+            <ul>
+                <li><code>div p</code> - все p внутри div (потомки)</li>
+                <li><code>div > p</code> - p, которые прямые дети div</li>
+                <li><code>div + p</code> - p, который следует сразу после div</li>
+                <li><code>div ~ p</code> - все p, которые следуют после div</li>
+            </ul>
+        </div>
+        
+        <!-- Блочная модель -->
+        <div class="card">
+            <h2>📦 Блочная модель</h2>
+            <p>Каждый элемент представляется как прямоугольный блок со следующими свойствами:</p>
+            
+            <div style="text-align: center; margin: 20px 0;">
+                <div style="display: inline-block; position: relative;">
+                    <div style="background: #3498db; padding: 40px; margin: 20px; position: relative;">
+                        <div style="background: #2ecc71; padding: 30px;">
+                            <div style="background: #e74c3c; padding: 20px; color: white;">Контент</div>
+                        </div>
+                    </div>
+                    <div style="position: absolute; top: -10px; left: 0; right: 0; text-align: center; color: #7f8c8d;">margin</div>
+                    <div style="position: absolute; top: 30px; left: 0; right: 0; text-align: center; color: #7f8c8d;">padding</div>
+                    <div style="position: absolute; top: 70px; left: 0; right: 0; text-align: center; color: #7f8c8d;">border</div>
+                </div>
+            </div>
+            
+            <div class="example">
+                <p><strong>Пример блочной модели:</strong></p>
+                <pre>
+div {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #3498db;
+    margin: 10px;
+}</pre>
+            </div>
+            
+            <div class="tip">
+                <p><strong>Совет:</strong> Используйте <code>box-sizing: border-box;</code> чтобы padding и border включались в общую ширину элемента.</p>
+            </div>
+        </div>
+        
+        <!-- Позиционирование -->
+        <div class="card">
+            <h2>📍 Позиционирование</h2>
+            <p>Свойство position определяет, как элемент позиционируется на странице.</p>
+            
+            <table>
+                <tr>
+                    <th>Значение</th>
+                    <th>Описание</th>
+                </tr>
+                <tr>
+                    <td><code>static</code></td>
+                    <td>По умолчанию, элемент в обычном потоке</td>
+                </tr>
+                <tr>
+                    <td><code>relative</code></td>
+                    <td>Относительно своего обычного положения</td>
+                </tr>
+                <tr>
+                    <td><code>absolute</code></td>
+                    <td>Относительно ближайшего позиционированного предка</td>
+                </tr>
+                <tr>
+                    <td><code>fixed</code></td>
+                    <td>Относительно окна браузера (при прокрутке остаётся на месте)</td>
+                </tr>
+                <tr>
+                    <td><code>sticky</code></td>
+                    <td>Переключается между relative и fixed при прокрутке</td>
+                </tr>
+            </table>
+            
+            <div class="example">
+                <p><strong>Пример fixed позиционирования:</strong></p>
+                <pre>
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+}</pre>
+            </div>
+        </div>
+        
+        <!-- Flexbox -->
+        <div class="card">
+            <h2>📐 Flexbox</h2>
+            <p>Модель для создания гибких макетов с простым выравниванием элементов.</p>
+            
+            <h3>Контейнер (родитель):</h3>
+            <ul>
+                <li><code>display: flex;</code> - активирует flexbox</li>
+                <li><code>flex-direction: row|column;</code> - направление элементов</li>
+                <li><code>justify-content:</code> - выравнивание по главной оси</li>
+                <li><code>align-items:</code> - выравнивание по поперечной оси</li>
+            </ul>
+            
+            <h3>Элементы (дети):</h3>
+            <ul>
+                <li><code>flex: 1;</code> - элемент растягивается/сжимается</li>
+                <li><code>order: 2;</code> - порядок отображения</li>
+                <li><code>align-self:</code> - индивидуальное выравнивание</li>
+            </ul>
+            
+            <div class="example">
+                <p><strong>Пример центрирования:</strong></p>
+                <pre>
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}</pre>
+            </div>
+        </div>
+        
+        <!-- Grid -->
+        <div class="card">
+            <h2>🔲 CSS Grid</h2>
+            <p>Двумерная система макетов для создания сложных сеток.</p>
+            
+            <h3>Контейнер (родитель):</h3>
+            <ul>
+                <li><code>display: grid;</code> - активирует grid</li>
+                <li><code>grid-template-columns: 1fr 1fr 1fr;</code> - определяет колонки</li>
+                <li><code>grid-template-rows: 100px auto;</code> - определяет строки</li>
+                <li><code>gap: 20px;</code> - расстояние между элементами</li>
+            </ul>
+            
+            <h3>Элементы (дети):</h3>
+            <ul>
+                <li><code>grid-column: 1 / 3;</code> - занимает колонки с 1 по 3</li>
+                <li><code>grid-row: 1;</code> - занимает строку 1</li>
+            </ul>
+            
+            <div class="example">
+                <p><strong>Пример сетки 3x2:</strong></p>
+                <pre>
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px;
+    gap: 10px;
+}</pre>
+            </div>
+        </div>
+        
+        <!-- Цвета и фон -->
+        <div class="card">
+            <h2>🎨 Цвета и фон</h2>
+            <p>Способы задания цветов и работы с фонами элементов.</p>
+            
+            <h3>Формы цвета:</h3>
+            <ul>
+                <li><code>color: red;</code> - имя цвета</li>
+                <li><code>color: #ff0000;</code> - HEX</li>
+                <li><code>color: rgb(255, 0, 0);</code> - RGB</li>
+                <li><code>color: rgba(255, 0, 0, 0.5);</code> - RGB с прозрачностью</li>
+                <li><code>color: hsl(0, 100%, 50%);</code> - HSL</li>
+            </ul>
+            
+            <h3>Свойства фона:</h3>
+            <ul>
+                <li><code>background-color: #f0f0f0;</code></li>
+                <li><code>background-image: url('image.jpg');</code></li>
+                <li><code>background-size: cover|contain;</code></li>
+                <li><code>background-position: center;</code></li>
+                <li><code>background-repeat: no-repeat;</code></li>
+            </ul>
+            
+            <div class="example">
+                <p><strong>Пример градиента:</strong></p>
+                <pre>
+.header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}</pre>
+            </div>
+        </div>
+        
+        <!-- Текст и шрифты -->
+        <div class="card">
+            <h2>🔤 Текст и шрифты</h2>
+            <p>Стилизация текстового содержимого.</p>
+            
+            <table>
+                <tr>
+                    <th>Свойство</th>
+                    <th>Пример</th>
+                    <th>Описание</th>
+                </tr>
+                <tr>
+                    <td>font-family</td>
+                    <td><code>Arial, sans-serif;</code></td>
+                    <td>Шрифт текста</td>
+                </tr>
+                <tr>
+                    <td>font-size</td>
+                    <td><code>16px|1em|1rem;</code></td>
+                    <td>Размер шрифта</td>
+                </tr>
+                <tr>
+                    <td>font-weight</td>
+                    <td><code>bold|700;</code></td>
+                    <td>Жирность шрифта</td>
+                </tr>
+                <tr>
+                    <td>text-align</td>
+                    <td><code>left|center|right;</code></td>
+                    <td>Выравнивание текста</td>
+                </tr>
+                <tr>
+                    <td>line-height</td>
+                    <td><code>1.5;</code></td>
+                    <td>Межстрочный интервал</td>
+                </tr>
+                <tr>
+                    <td>text-decoration</td>
+                    <td><code>underline|none;</code></td>
+                    <td>Оформление текста</td>
+                </tr>
+            </table>
+            
+            <div class="tip">
+                <p><strong>Совет:</strong> Используйте Google Fonts для подключения красивых шрифтов:</p>
+                <pre>&lt;link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"&gt;</pre>
+            </div>
+        </div>
+        
+        <!-- Адаптивный дизайн -->
+        <div class="card">
+            <h2>📱 Адаптивный дизайн</h2>
+            <p>Создание сайтов, которые хорошо выглядят на всех устройствах.</p>
+            
+            <h3>Медиазапросы:</h3>
+            <pre>
+/* Стили для экранов меньше 768px */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .menu {
+        display: none;
+    }
+}
+
+/* Стили для экранов больше 1200px */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}</pre>
+            
+            <h3>Относительные единицы:</h3>
+            <ul>
+                <li><code>%</code> - проценты от родительского элемента</li>
+                <li><code>vw/vh</code> - % от ширины/высоты окна браузера</li>
+                <li><code>rem</code> - относительно размера шрифта корневого элемента</li>
+                <li><code>em</code> - относительно размера шрифта родителя</li>
+            </ul>
+            
+            <div class="important">
+                <p><strong>Обязательно добавляйте в &lt;head&gt;:</strong></p>
+                <pre>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</pre>
+            </div>
+        </div>
+        
+        <!-- Псевдоклассы и псевдоэлементы -->
+        <div class="card">
+            <h2>✨ Псевдоклассы и псевдоэлементы</h2>
+            <p>Специальные селекторы для стилизации элементов в определенных состояниях или их частей.</p>
+            
+            <h3>Псевдоклассы (состояния):</h3>
+            <ul>
+                <li><code>:hover</code> - при наведении курсора</li>
+                <li><code>:active</code> - в момент нажатия</li>
+                <li><code>:focus</code> - при фокусе (например, в поле ввода)</li>
+                <li><code>:nth-child(n)</code> - n-ный элемент</li>
+                <li><code>:first-child</code> - первый элемент</li>
+                <li><code>:last-child</code> - последний элемент</li>
+            </ul>
+            
+            <h3>Псевдоэлементы (части элемента):</h3>
+            <ul>
+                <li><code>::before</code> - вставляет контент перед элементом</li>
+                <li><code>::after</code> - вставляет контент после элемента</li>
+                <li><code>::first-letter</code> - первая буква текста</li>
+                <li><code>::first-line</code> - первая строка текста</li>
+            </ul>
+            
+            <div class="example">
+                <p><strong>Пример:</strong></p>
+                <pre>
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}</pre>
+            </div>
+        </div>
+        
+        <!-- Трансформации и переходы -->
+        <div class="card">
+            <h2>⚡ Трансформации и переходы</h2>
+            <p>Создание анимаций и плавных переходов.</p>
+            
+            <h3>Transform (трансформации):</h3>
+            <ul>
+                <li><code>transform: translateX(50px);</code> - перемещение по X</li>
+                <li><code>transform: rotate(45deg);</code> - поворот</li>
+                <li><code>transform: scale(1.2);</code> - масштабирование</li>
+                <li><code>transform: skew(10deg);</code> - наклон</li>
+            </ul>
+            
+            <h3>Transition (переходы):</h3>
+            <ul>
+                <li><code>transition: all 0.3s ease;</code> - плавное изменение всех свойств</li>
+                <li><code>transition: opacity 0.5s linear;</code> - только для opacity</li>
+            </ul>
+            
+            <div class="example">
+                <p><strong>Пример кнопки с анимацией:</strong></p>
+                <pre>
+.button {
+    background: #3498db;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}</pre>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>📚 Полезные ресурсы: 
+            <a href="https://developer.mozilla.org/ru/docs/Web/CSS" target="_blank">MDN Web Docs</a> | 
+            <a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a> | 
+            <a href="https://www.w3schools.com/css/" target="_blank">W3Schools</a>
+        </p>
+        <p>© 2023 CSS Шпаргалка для новичков</p>
+    </footer>
+</body>
+</html>
