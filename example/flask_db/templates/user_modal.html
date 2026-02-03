@@ -21,3 +21,14 @@
         </div>
     </div>
 </div>
+
+<script>
+    // для автофокуса
+window.addEventListener('hashchange', () => {
+    if (window.location.hash === '#modal-one') {
+        // фокус на input через 0.5 сек
+        setTimeout(() => document.querySelector('#user_name').focus(), 500);
+    }
+});
+
+</script>
