@@ -1,0 +1,34 @@
+<style>
+    .test{
+        max-height: 800px;
+        overflow: scroll;
+    }
+</style>
+
+{% extends "base.html" %}
+
+{% block main_menu %} 
+    {{ super() }} 
+    <li><a href="/">На главную </a></li>
+{% endblock %}
+
+
+
+{% block content1_head %}
+    <h2>Пример параметра int в url</h2>    
+{% endblock %}
+
+
+{% block content1 %}
+    <div class="test">
+    {% for i in range(1, num+1) %}
+        <p> <span style="font-size: 200%;">{{loop.index}}</span> {{ "test " * i }} </p>
+        <hr>  <!-- горизонтальная линия -->        
+    {% endfor %}
+    </div>
+{% endblock %}
+
+
+{% block content2_head %}
+    <h2>Пример параметра int в url</h2>    
+{% endblock %}

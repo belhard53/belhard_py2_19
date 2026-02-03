@@ -1,0 +1,83 @@
+
+<style>
+    body{
+        background-color: rgb(213 192 223);
+    }
+    h2{
+        text-align: center; /* текст по центру */
+    }
+    label{
+        display: inline-block; /* так как это строковый тип, а он не меняет ширину, делаем его частично блочным*/
+        width: 70px;
+    }
+    form{        
+        width: 350;            
+        
+         
+    }
+
+    fieldset{
+        padding: 20px;
+        background-color: rgb(241, 221, 245);
+        border: #c6acdc 1px solid;
+        border-radius: 10px; /*скругляет углы бордера*/
+        box-shadow: 5px 5px 6px 0px #755d8b; /*тень под элементом*/   
+    }
+
+    legend{
+        text-shadow: 8px 9px 3px #706a6a; /*тень под текстом*/
+        font-size: 1.5rem;
+    }
+
+    input:focus{
+        /* срабатывает только когда элемент в фокусе */
+        background-color: rgb(232 208 253);
+    }
+</style>
+
+{% extends "base.html" %}
+
+{% block main_menu %} 
+    {{ super() }} 
+    <li><a href="/">На главную </a></li>
+{% endblock %}
+
+
+{% block content1_head %}
+    <h2>Пример формы</h2>    
+{% endblock %}
+
+{% block content1 %}
+    <form action="" method="post">
+    <fieldset>
+    <legend>Форма 1</legend>
+    
+        {% if err %}
+            <p style="color: red;"> {{err}} </p>
+        {% endif %}
+
+        <p>
+            <label for="login">Логин</label>
+            <input type="text" name="login" id="login" placeholder="login" value="{{ login }}">
+        </p>
+
+        <!-- <input type="email">
+        <input type="number"> -->
+
+        <p>
+            <!-- так можно  но не нужно -->
+            <!-- <label> Пароль
+                <input type="password" name="pass">
+            </label> -->
+
+            <!-- так лучше - через for и id-->
+            <label for="pass"> Пароль </label>
+            <input type="password" name="pass" id="pass">
+        </p>
+
+        <input type="submit">
+
+    </fieldset>
+    </form>
+{% endblock %}
+
