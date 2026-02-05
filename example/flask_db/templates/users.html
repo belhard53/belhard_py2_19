@@ -30,6 +30,7 @@
         
         transition: all 1s ease-in-out;
         box-shadow: 1px 1px 1px gray;
+        position: relative;
     }
 
     
@@ -101,6 +102,16 @@
         font-weight: 900;
     }
 
+    .del_user{
+        position: absolute;
+        bottom: -10px;
+        a{
+            color: rgb(208, 107, 173);
+            text-decoration: none;
+            font-size: 0.7rem;
+        }
+    }
+
 </style>
 
 {% extends "base.html" %}
@@ -126,6 +137,8 @@
                 <p class="u_name">{{ user.name }}</p> 
                 <p class="u_info"> длина имени - {{ len(user.name) }}</p>
                 <!-- len в шаблонах нет - ее надо отдельно передать как аргумент-->
+                <!-- <p class="del_user"><a  href="/user_delete/{{user.id}}/">удалить</a></p> -->
+                <p class="del_user"><a  href="{{ url_for('user_delete', id=user.id) }}"> удалить </a></p>
             </div>
         
         {% endfor %}

@@ -1,6 +1,7 @@
 from pydantic import BaseModel, ValidationError
 
 
+
 class Tag(BaseModel):
     id: int
     tag: str
@@ -32,7 +33,7 @@ try:
 except ValidationError as e:
     print(e.json())
 else:
-    print(city)
+    print(1111, city)
     print(city.model_dump())  
       
     print(city.tags[1].tag)

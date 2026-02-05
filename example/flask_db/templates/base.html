@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Шаблоны</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/quiz.css') }}">
     
 </head>
 <body>
@@ -53,11 +54,16 @@
     
     <aside>Aside</aside>   
     
-    <footer>Footer</footer> 
+    <footer>Footer1</footer> 
     
 
     
+{% if html_config['debug'] %}    
+<script type="text/javascript">
+    setTimeout("window.location.reload()",2000)
+</script>
+{% endif %}
+
 </body>
-
-
 </html>
+

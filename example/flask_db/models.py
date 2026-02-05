@@ -85,13 +85,131 @@ def db_add_new_data():
     db.create_all()    
     
     user1 = User('Петя')
-    user2 = User('Вася')    
+    user2 = User('Вася1')    
+    user3 = User('user3')    
+    
+    quizes = [
+        Quiz("QUIZ 1", user1),
+        Quiz("QUIZ 2", user1),
+        Quiz("QUIZ 3", user2),
+        Quiz("QUIZ 4", user3),
+    ]
+    
+    
+    questions = [        
+        Question('Сколько будут 2+2*2', '6', '8', '2', '0'),
+        Question('Сколько месяцев в году имеют 28 дней?', 'Все', 'Один', 'Ни одного', 'Два'),
+        Question('Каким станет зелёный утёс, если упадет в Красное море?', 'Мокрым?', 'Красным', 'Не изменится', 'Фиолетовым'),
+        Question('Какой рукой лучше размешивать чай?', 'Ложкой', 'Правой', 'Левой', 'Любой'),
+        Question('Что не имеет длины, глубины, ширины, высоты, а можно измерить?', 'Время', 'Глупость', 'Море', 'Воздух'),
+        Question('Когда сетью можно вытянуть воду?', 'Когда вода замерзла', 'Когда нет рыбы', 'Когда уплыла золотая рыбка', 'Когда сеть порвалась'),
+        Question('Что больше слона и ничего не весит?', 'Тень слона', 'Воздушный шар', 'Парашют', 'Облако'),
+        Question('Что такое у меня в кармашке?', 'Кольцо', 'Кулак', 'Дырка', 'Бублик'),
+        
+    ]
+    
+    quizes[0].question.append(questions[0])
+    quizes[0].question.append(questions[1])
+    quizes[0].question.append(questions[2])
+    
+    quizes[1].question.append(questions[2])
+    quizes[1].question.append(questions[4])
+    quizes[1].question.append(questions[5])
+    quizes[1].question.append(questions[1])
+    
+    quizes[2].question.append(questions[7])
+    quizes[2].question.append(questions[6])
+    quizes[2].question.append(questions[3])
+    
+    quizes[3].question.append(questions[3])
+    quizes[3].question.append(questions[6])
+    quizes[3].question.append(questions[5])
+    quizes[3].question.append(questions[1])
+    quizes[3].question.append(questions[0])
     
     # db.session.add(user1)
-    db.session.add_all([user1, user2, User('_Коля')])
+    # db.session.add_all([user1, user2, User('_Коля')])
+    db.session.add_all(quizes)
     
     
     db.session.commit()
         
     
+# CRUD
+
+'''
+УПРАВЛЕНИЕ ДАННЫМИ 
+
+
+
+# создать объекты
+user = User('user1')
+quiz = Quiz('QUIZ 1', user1)
+question = Question('Сколько будут 2+2*2', '6', '8', '2', '0')
+
+# добавить в квиз вопрос
+quiz.question.append(question)
+
+# сохранить КВИЗ в базу
+db.session.add(quiz)
+db.session.commit()
+
+# взять все  квизы из базы и распечатать с вопросами
+quizes = Quiz.query.all() # 
+for quiz in quizes:
+    print(quiz) # как в __repr__
+    print(quiz.question) # -> список
+    for question in quiz.question:
+        print(question) # как в __repr__
+        
+        
+# взять вопрос по id (так работает только по id) самый быстрый метод
+user = db.session.get(User, 1) 
+question = db.session.get(Question, 1)
+
+# фильтрация
+# user = db.query(User).filter_by(id=2).one()    
+# users = db.query(User).filter(User.id>3).all()
+
+# from sqlalchemy import or_
+# users = db.query(User).filter(or_(User.name=='Max1', User.fname=='Max2')).all()
+# print(users)
+
+# users = db.query(User).filter(User.name.like(r'%Max6%')).all()
+# print(users)
+
+
+# сколько вопросов в квизе
+len(quiz.question) 
+
+# Добавить в квиз вопрос с id = 1
+quiz.question.append(db.session.query(Question).get(1))
+db.session.commit()
+
+# найти вопросы id которых есть в списке или не в списке
+questions = Question.query.filter(Question.id.in_([1,2,3])).all()    
+questions = Question.query.filter(Question.id.not_in([1,2,3])).all()  
+
+# изменить данные
+question = db.session.query(Question).get(id)
+question.question = 'измененный вопрос'
+question.answer = 'измененный правильный ответ'
+user.name = "Vasya"
+db.session.commit()
     
+# удалить квиз
+Quiz.query.filter_by(id = id).delete()
+db.session.query(Quiz).get(id).delete()
+db.session.commit()
+
+# отвязать вопрос от квиза
+question = db.session.query(Question).get(id)
+quiz.question.remove(question)
+db.session.commit()
+
+
+# получить связанные данные в обратную сторону
+question = db.session.query(Question).get(id)
+print(question.quiz) # распечатает все квизы в которые входит вопрос
+
+'''
