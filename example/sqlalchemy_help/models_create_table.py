@@ -12,6 +12,7 @@ class User(Base):
     name = Column(String)
     age = Column(Integer)
     
+    
 class User2(Base):
     __tablename__ = 'users2'
     
