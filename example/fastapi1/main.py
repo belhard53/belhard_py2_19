@@ -28,8 +28,6 @@ def home_post(user: User1 = Depends()):
     return {"status": "success post", "data": {'id':11111, 'add_user':f'{user.name} {user.age}'}}
 
 
-
-
 if __name__ == '__main__':    
     uvicorn.run("main:app", reload=True)  
     
