@@ -1,5 +1,8 @@
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 from sqlalchemy import ForeignKey, String, Table, Column, func
+from fastapi_filter.contrib.sqlalchemy import Filter
+
+
 
 from datetime import datetime
 
@@ -32,3 +35,43 @@ class UserOrm(Model):
     age: Mapped[int]
     phone: Mapped[str|None]
     # quiz = relationship('QuizOrm', backref='user')
+    
+class UserFilter(Filter):
+    name: str | None = None
+    name__like: str | None = None
+    name__startswith: str | None = None
+    phone__in: list[str] | None = None
+    age__gt:int | None = None
+    
+    # ?name__like=N&age__gt=50&order_by=-age,name
+    order_by: list[str] = ['age']
+    
+    class Constants(Filter.Constants):
+        model = UserOrm
+
+
+'''
+добавляются к названию поля через два "_"
+
+Сравнительные операторы :
+    eq: равно
+    neq(или ): не равно not
+    gt: больше
+    lt: меньше
+    gte: больше или равно
+    lte: меньше или равно
+Операторы для работы с коллекциями :
+    in: принадлежит множеству
+    not_in: не принадлежит множеству
+Операторы для строковых данных :
+    like: соответствует шаблону 
+    ilike: регистронезависимый поиск по шаблону
+    startswith: начинается с
+    endswith:кончается на
+    contains:содержит подстроку
+    not_like: не соответствует шаблону
+Специальные операторы :
+    isnull: проверка на NULL
+    not_isnull:проверка на NOT NULL
+
+'''

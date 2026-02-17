@@ -2,7 +2,7 @@ from fastapi import APIRouter, HTTPException, Depends, Query
 
 from schemas import *
 from database import UserRepository as ur
-
+from models import UserFilter
 
 # pip install fastapi_filter
 from fastapi_filter import FilterDepends
@@ -31,12 +31,12 @@ async def index():
 @users_router.get('')
 async def users_get(
             limit:int = Query(ge=1, lt=10, default=3), 
-            offset:int = Query(ge=0, default=0),
-            # user_filter: UserFilter = FilterDepends(UserFilter)
+            offset:int = Query(ge=0, default=0),            
+            user_filter: UserFilter = FilterDepends(UserFilter)
         ) -> dict[str, int | list[User]]: 
      
     # users =   await ur.get_users(limit, offset, user_filter)
-    users =   await ur.get_users(limit, offset)
+    users =   await ur.get_users(limit, offset, user_filter)
     
     # return users
     

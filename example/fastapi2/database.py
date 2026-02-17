@@ -48,7 +48,9 @@ class  DataRepository:
                 UserOrm(name='user4', age=42, phone='22'),
                 UserOrm(name='user5', age=43, phone='33'),
                 UserOrm(name='user6', age=44),
-                UserOrm(name='user7', age=45)
+                UserOrm(name='user7', age=60),
+                UserOrm(name='us1er7', age=61),
+                UserOrm(name='user17', age=64),
             ]
             
                         
@@ -77,14 +79,15 @@ class UserRepository:
             return user.id
             
     @classmethod        
-    async def get_users(cls, limit, offset,) -> list[UserOrm]:
+    async def get_users(cls, limit, offset, user_filter) -> list[UserOrm]:
         async with new_session() as session:
             
-            # query = select(UserOrm)
-            query = select(UserOrm).limit(limit).offset(offset)
+            query = select(UserOrm)
+            # query = select(UserOrm).limit(limit).offset(offset)
             
-            # query = user_filter.filter(query).limit(limit).offset(offset)
-            # query = user_filter.sort(query)
+            query = user_filter.filter(query).limit(limit).offset(offset)
+            query = user_filter.sort(query)
+            
             # query = text(f"SELECT * FROM users WHERE id={id}")
             
             res = await session.execute(query)

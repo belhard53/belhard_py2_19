@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        body {            
+            max-width: 800px;
+            margin: 50px auto;
+            
+        }
+        a {
+            display: block;
+            padding: 3px;
+            margin: 3px 0;
+            text-decoration: none;
+            color: #0066cc;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+        a:hover {
+            background-color: #f5f5f5;
+            color: #004499;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Available Paths</h1>
+    
+    <a href="/users/">users/</a>
+    <a href="/hello2/">hello2/</a>
+    <a href="/hello3/">hello3/</a>
+    <a href="/hello2/1/">hello2/&lt;int:num&gt;/</a>
+    <a href="/hello7/">hello&lt;int:num&gt;/</a>
+    <a href="/user/john-42/">user/&lt;str:name&gt;-&lt;int:num&gt;/</a>
+    <a href="/user_info/">user_info/</a>
+    <a href="/data/2024/">^data/(?P&lt;year&gt;\d{4})/$</a>
+    <a href="/path1/">^(path1|path2|path3)/$</a>
+    <a href="/app1/">app1/</a>
+    <a href="/app1/hello4/">app1/hello4/</a>
+    <a href="/app1/hello5/">app1/hello5/</a>
+    <a href="/admin/">admin/</a>
+    <a href="/adminka/">adminka/</a>
+    <a href="/adminushka/">adminushka/</a>
+</body>
+</html>
