@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block title %} Студенты {% endblock %}
+
+{% block content1_head %}
+    <h1>Студенты</h1>
+{% endblock %}
+
+{% block content1 %}
+
+<!-- Номера страниц --> 
+{% if page_obj %}
+    <div class="flex-container paginator1">
+        <span> Cтраницы </span>
+        {% for num in page_obj.paginator.page_range %}
+            {% if page_obj.number == num %}
+                <strong>{{ num }}</strong>
+            {% elif num > page_obj.number|add:-3 and num < page_obj.number|add:3 %}
+                <a href="?page={{ num }}">{{ num }}</a>
+            {% endif %}
+        {% endfor %}
+        <span>  (всего {{ page_obj.paginator.num_pages }}) </span> 
+    </div>
+{% endif %}
+
+<div class="students">        
+    <div class="students-cell"> № </div>
+    
+    <div class="students-cell"> 
+        <div class="flex-container">
+            <span class="span_fio"> ФИО </span>
+            <form>
+                <input class="input_fio" type="text" name="q" placeholder="поиск по ФИО">
+                <input type="submit" value="OK">
+            </form>
+        </div>
+    </div>
+    <div class="students-cell"> Возраст  </div>
+    <div class="students-cell"> Пол  </div>
+    <div class="students-cell"> ФОТО  </div>
+
+    {% for s in students %}        
+        <div class="students-cell"> <a href="{% url 'student' s.id %}">{{ forloop.counter}}</a></div>        
+        
+        <!-- <div class="students-cell"> <a href="/students/{{s.id}}/">{{s.name}} {{s.surname}}</a></div> -->        
+        <!-- <div class="students-cell"> <a href="{% url 'student' s.id %}">{{s.name}} {{s.surname}}</a></div>         -->
+        <div class="students-cell"> <a href="{{ s.get_absolute_url }}">{{s.name}} {{s.surname}}</a></div>        
+        
+        <div class="students-cell"> {{s.age}} </div>
+        <div class="students-cell"> {{s.sex}} {{s.get_sex_display}} </div>            
+        <div class="students-cell">
+        
+        
+        {% if s.photo %}
+            <img class="img-student thumb" src="{{ s.photo.url }}" alt="Нету">
+        {% else %}
+            <img class="img-student thumb" src="{% static 'main/pic/no-photo.png' %}" alt="Нету">
+        {% endif %}
+
+        
+        
+        {% comment %}
+        многострочный комментарий
+        {% if s.photo %}
+            <img class="img-student thumb" src="{{ s.photo.url }}" alt="Нету">
+        {% endif %}
+        {% endcomment %}
+
+        </div>
+    {% endfor %}
+</div>
+
+
+<!-- Простая навигация -->
+<div class="pagination">
+    {% if page_obj %}
+        {% if page_obj.has_previous %}
+            <a href="?page={{ page_obj.previous_page_number }}">« Предыдущая</a>
+        {% endif %}
+    
+        <span>Страница {{ page_obj.number }} из {{ page_obj.paginator.num_pages }}</span>
+    
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">Следующая »</a>
+        {% endif %}
+    {% endif %}
+</div>
+
+
+
+{% endblock %}

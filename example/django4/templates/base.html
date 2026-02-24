@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Академия-Ы</title>    
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static '/main/css/students.css' %}">
     
 </head>
 <body>
@@ -16,8 +17,9 @@
             <ul class="main-menu">
                 {% block main_menu %}
                 <li><a href="{% url 'index' %}">Главная</a></li>
-                <li><a href="{% url 'students' %}">Студенты</a></li>
-                <li><a href="#">Курсы</a></li>
+                <li><a href="{% url 'students' %}">Студенты def</a></li>
+                <li><a href="{% url 'students2' %}">Студенты Class</a></li>
+                <li><a href="{% url 'courses' %}">Курсы</a></li>
                 <li><a href="#">Журнал</a></li>
                 <li><a href="/admin/">Админка</a></li>
                 {% endblock %}

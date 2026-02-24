@@ -48,6 +48,6 @@ class GradeAdmin(admin.ModelAdmin):
     list_filter = ('course', 'grade', 'date')
     search_fields = ('person__surname', 'person__name')
     # autocomplete_fields = ('person', 'course') # при выборе список с фильтром и ajax догружает
-    # autocomplete_fields = ('person') # при выборе список с фильтром и ajax догружает
+    autocomplete_fields = ('person',) # при выборе список с фильтром и ajax догружает
     date_hierarchy = 'date' # создает иерархию дат
     ordering = ('-date',)

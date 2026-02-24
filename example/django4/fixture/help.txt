@@ -1,0 +1,11 @@
+py manage.py dumpdata -o data.json
+
+python manage.py dumpdata app.Model --indent=2 > fixtures/test_data.json
+
+python manage.py dumpdata app1 app2 --indent=2 > fixtures/all_data.json
+
+Фикстуры из папки app/fixtures/  автоматически загрузятся при миграциях
+или python manage.py loaddata test_data.json
+
+русский шрифт может быть записан в utf16 - тогда перекодировать в utf8
+

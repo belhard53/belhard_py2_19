@@ -1,6 +1,6 @@
 from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
-
+from django.urls import reverse
 # Create your models here.
 
 class Student(models.Model):
@@ -42,11 +42,17 @@ class Student(models.Model):
     
                 # course.student_set()
     
+    
+    
     # фото
     # курсы - связь
     
     def __str__(self):
         return f"{self.surname} {self.name}"
+    
+    def get_absolute_url(self):
+        return reverse('student2', kwargs={"pk":self.id})
+        # return reverse('student2', kwargs={"name_slug":self.slug})
     
     class Meta:
         verbose_name = "Студент"
@@ -77,6 +83,9 @@ class Course(models.Model):
     
     def __str__(self):
         return f"{self.get_name_display()} - {self.course_num}"
+
+    def get_absolute_url(self):
+        return reverse('course', kwargs={"id":self.id})
 
     class Meta:
         unique_together = [['name', 'course_num']]
