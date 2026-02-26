@@ -1,0 +1,7614 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-02-19T18:07:55.422Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "user1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-02-19T18:36:04.395Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Student object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-02-19T18:37:07.787Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Student object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-02-19T18:50:12.834Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "SSSSS1 ssss1",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-02-19T18:50:16.601Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Васечкин Вася",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-02-19T19:03:56.153Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Python - 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-02-19T19:04:08.686Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "JavaScript - 1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-02-19T19:04:33.330Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "SSSSS1 ssss1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0441\\u0435\\u0449\\u0430\\u0435\\u043c\\u044b\\u0435 \\u043a\\u0443\\u0440\\u0441\\u044b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-02-19T19:04:39.911Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Васечкин Вася",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0441\\u0435\\u0449\\u0430\\u0435\\u043c\\u044b\\u0435 \\u043a\\u0443\\u0440\\u0441\\u044b\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-02-19T19:05:35.295Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Grade object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-02-19T19:06:45.709Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Grade object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-02-19T19:06:57.445Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Grade object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-02-19T21:17:45.785Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "Андреева Януарий",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"\\u041e\\u0446\\u0435\\u043d\\u043a\\u0430\", \"object\": \"Grade object (504)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-02-24T16:38:09.076Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "53",
+    "object_repr": "Васечкин123 Вася123",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u041e\\u0446\\u0435\\u043d\\u043a\\u0430\", \"object\": \"Grade object (505)\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-02-24T22:21:47.512Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "104",
+    "object_repr": "User111 User1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add student",
+    "content_type": 7,
+    "codename": "add_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change student",
+    "content_type": 7,
+    "codename": "change_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete student",
+    "content_type": 7,
+    "codename": "delete_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view student",
+    "content_type": 7,
+    "codename": "view_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Оценка",
+    "content_type": 8,
+    "codename": "add_grade"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Оценка",
+    "content_type": 8,
+    "codename": "change_grade"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Оценка",
+    "content_type": 8,
+    "codename": "delete_grade"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Оценка",
+    "content_type": 8,
+    "codename": "view_grade"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add Курс",
+    "content_type": 9,
+    "codename": "add_course"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change Курс",
+    "content_type": 9,
+    "codename": "change_course"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete Курс",
+    "content_type": 9,
+    "codename": "delete_course"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view Курс",
+    "content_type": 9,
+    "codename": "view_course"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$YCcw7iFxILt1RfIpZ8DRRy$VAbhYwgwJ3a/9PwcqqaRnpbysdQWjAchLT1+Yi2NonI=",
+    "last_login": "2026-02-24T16:33:29.262Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-19T18:05:03.929Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$vasZ6Aeledlq3E3CVnGz8X$R4qRQOsCszvKQ5PfxnOJUcukKOPSSyiEZORfp61APVc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-02-19T18:07:54.799Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$jDS7pd5gufjItPxuut9EMT$AsClM0NUGzutyj9daQenuOS0YgMR/idziDmdGTOqmAY=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "testuser",
+    "first_name": "",
+    "last_name": "",
+    "email": "test@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-02-24T17:14:06.379Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "main",
+    "model": "student"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "main",
+    "model": "grade"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "main",
+    "model": "course"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0bsbcs4mr7bmb3555yw6uf00atmp8d6v",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP9lz4YA8mqP3vsNzcIuUjWQlPZk_HfTpAe9zkzmDTPuW5n3zuu8EIyg4PLLIqYn10PQA-u9idTqti5RHIk4bRdTI37dzvZvULAXGMFlpzL65FEz2sFKxeQoUZAYo_aDdJb5aox2lDPJEBJFssxMSkYjFXy-BQQ45w:1vuvLl:rxx8hRCvOlnvDj9nNOnnVBr2o8dhrm_w7Df4ZVnXV_M",
+    "expire_date": "2026-03-10T16:33:29.265Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lx66c129r6wjzf2bqafvtf420p80y601",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP9lz4YA8mqP3vsNzcIuUjWQlPZk_HfTpAe9zkzmDTPuW5n3zuu8EIyg4PLLIqYn10PQA-u9idTqti5RHIk4bRdTI37dzvZvULAXGMFlpzL65FEz2sFKxeQoUZAYo_aDdJb5aox2lDPJEBJFssxMSkYjFXy-BQQ45w:1vt8Ov:8hTRpcREr1fLDNFipHL9zI-xiKS5naiLPtWwlNgd4nE",
+    "expire_date": "2026-03-05T18:05:21.455Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o7g59d3n76t606dxf7fw287rwvk3kwcu",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP9lz4YA8mqP3vsNzcIuUjWQlPZk_HfTpAe9zkzmDTPuW5n3zuu8EIyg4PLLIqYn10PQA-u9idTqti5RHIk4bRdTI37dzvZvULAXGMFlpzL65FEz2sFKxeQoUZAYo_aDdJb5aox2lDPJEBJFssxMSkYjFXy-BQQ45w:1vtBQg:tgAfCq3EulYggoTml2oSAP26PpVwWz0poSpNPDSD2LY",
+    "expire_date": "2026-03-05T21:19:22.089Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sp7rki1dsa54que3qshxt6wt8qcv0cgu",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP9lz4YA8mqP3vsNzcIuUjWQlPZk_HfTpAe9zkzmDTPuW5n3zuu8EIyg4PLLIqYn10PQA-u9idTqti5RHIk4bRdTI37dzvZvULAXGMFlpzL65FEz2sFKxeQoUZAYo_aDdJb5aox2lDPJEBJFssxMSkYjFXy-BQQ45w:1vtBNR:lfn3K3YFk-ob1zJyDfveCSj45t5lUaHGmxNvAf-sxgU",
+    "expire_date": "2026-03-05T21:16:01.812Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "w5yua3bd83mzo33cm18a4tp5po0hhrzb",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP9lz4YA8mqP3vsNzcIuUjWQlPZk_HfTpAe9zkzmDTPuW5n3zuu8EIyg4PLLIqYn10PQA-u9idTqti5RHIk4bRdTI37dzvZvULAXGMFlpzL65FEz2sFKxeQoUZAYo_aDdJb5aox2lDPJEBJFssxMSkYjFXy-BQQ45w:1vtAKZ:ivU9ux1U9s_iNco5zZquNEYHkRTnxodPeB8-GumLSxY",
+    "expire_date": "2026-03-05T20:08:59.521Z"
+  }
+},
+{
+  "model": "main.student",
+  "pk": 54,
+  "fields": {
+    "name": "Аггей",
+    "surname": "Белов",
+    "age": 40,
+    "sex": "m",
+    "active": true,
+    "course": [
+      21
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 55,
+  "fields": {
+    "name": "Зосима",
+    "surname": "Ильин",
+    "age": 25,
+    "sex": "f",
+    "active": false,
+    "course": [
+      22,
+      15
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 56,
+  "fields": {
+    "name": "Мариан",
+    "surname": "Самсонов",
+    "age": 48,
+    "sex": "m",
+    "active": true,
+    "course": [
+      25,
+      22,
+      16
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 57,
+  "fields": {
+    "name": "Епифан",
+    "surname": "Белова",
+    "age": 21,
+    "sex": "m",
+    "active": true,
+    "course": [
+      17
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 58,
+  "fields": {
+    "name": "Ульяна",
+    "surname": "Абрамов",
+    "age": 54,
+    "sex": "f",
+    "active": true,
+    "course": [
+      23,
+      21,
+      22,
+      16
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 59,
+  "fields": {
+    "name": "Виктор",
+    "surname": "Колобова",
+    "age": 45,
+    "sex": "f",
+    "active": false,
+    "course": [
+      23,
+      22,
+      17,
+      16
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 60,
+  "fields": {
+    "name": "Павел",
+    "surname": "Назаров",
+    "age": 51,
+    "sex": "m",
+    "active": true,
+    "course": [
+      21,
+      17,
+      16
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 61,
+  "fields": {
+    "name": "Доброслав",
+    "surname": "Савина",
+    "age": 54,
+    "sex": "f",
+    "active": false,
+    "course": [
+      22,
+      16
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 62,
+  "fields": {
+    "name": "Евдокия",
+    "surname": "Давыдов",
+    "age": 24,
+    "sex": "m",
+    "active": true,
+    "course": [
+      25,
+      20,
+      17,
+      15
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 63,
+  "fields": {
+    "name": "Бажен",
+    "surname": "Захаров",
+    "age": 60,
+    "sex": "m",
+    "active": false,
+    "course": [
+      22,
+      19
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 64,
+  "fields": {
+    "name": "Анжела",
+    "surname": "Лаврентьева",
+    "age": 24,
+    "sex": "f",
+    "active": true,
+    "course": [
+      21,
+      14,
+      15
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 65,
+  "fields": {
+    "name": "Спартак",
+    "surname": "Федорова",
+    "age": 57,
+    "sex": "f",
+    "active": false,
+    "course": [
+      25,
+      18,
+      14,
+      15
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 66,
+  "fields": {
+    "name": "Гаврила",
+    "surname": "Рыбакова",
+    "age": 40,
+    "sex": "f",
+    "active": false,
+    "course": [
+      24,
+      25,
+      14
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 67,
+  "fields": {
+    "name": "Будимир",
+    "surname": "Елисеев",
+    "age": 37,
+    "sex": "f",
+    "active": true,
+    "course": [
+      21,
+      22,
+      19
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 68,
+  "fields": {
+    "name": "Андрон",
+    "surname": "Кабанов",
+    "age": 57,
+    "sex": "f",
+    "active": true,
+    "course": [
+      25,
+      21,
+      22,
+      18
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 69,
+  "fields": {
+    "name": "Василий",
+    "surname": "Васильев",
+    "age": 39,
+    "sex": "f",
+    "active": false,
+    "course": [
+      14
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 70,
+  "fields": {
+    "name": "Игорь",
+    "surname": "Стрелкова",
+    "age": 58,
+    "sex": "m",
+    "active": true,
+    "course": [
+      25,
+      20,
+      14
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 71,
+  "fields": {
+    "name": "Руслан",
+    "surname": "Шарапов",
+    "age": 45,
+    "sex": "m",
+    "active": false,
+    "course": [
+      24,
+      25,
+      20,
+      21
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 72,
+  "fields": {
+    "name": "Андрон",
+    "surname": "Журавлев",
+    "age": 26,
+    "sex": "f",
+    "active": false,
+    "course": [
+      24,
+      18,
+      19,
+      14
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 73,
+  "fields": {
+    "name": "Емельян",
+    "surname": "Федотова",
+    "age": 49,
+    "sex": "m",
+    "active": false,
+    "course": [
+      20,
+      18,
+      19,
+      16
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 74,
+  "fields": {
+    "name": "Роман",
+    "surname": "Самсонова",
+    "age": 26,
+    "sex": "f",
+    "active": true,
+    "course": [
+      23,
+      21
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 75,
+  "fields": {
+    "name": "Олимпиада",
+    "surname": "Зуев",
+    "age": 57,
+    "sex": "m",
+    "active": false,
+    "course": [
+      24,
+      15
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 76,
+  "fields": {
+    "name": "Порфирий",
+    "surname": "Тимофеева",
+    "age": 39,
+    "sex": "m",
+    "active": false,
+    "course": [
+      17
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 77,
+  "fields": {
+    "name": "Лаврентий",
+    "surname": "Панфилова",
+    "age": 54,
+    "sex": "m",
+    "active": true,
+    "course": [
+      19,
+      15
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 78,
+  "fields": {
+    "name": "Капитон",
+    "surname": "Муравьев",
+    "age": 60,
+    "sex": "f",
+    "active": false,
+    "course": [
+      24,
+      14
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 79,
+  "fields": {
+    "name": "Радислав",
+    "surname": "Крюкова",
+    "age": 28,
+    "sex": "m",
+    "active": true,
+    "course": [
+      20
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 80,
+  "fields": {
+    "name": "Куприян",
+    "surname": "Осипов",
+    "age": 40,
+    "sex": "m",
+    "active": true,
+    "course": [
+      23
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 81,
+  "fields": {
+    "name": "Федор",
+    "surname": "Крылова",
+    "age": 56,
+    "sex": "f",
+    "active": true,
+    "course": [
+      19
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 82,
+  "fields": {
+    "name": "Аггей",
+    "surname": "Жукова",
+    "age": 51,
+    "sex": "m",
+    "active": false,
+    "course": [
+      18,
+      19,
+      14
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 83,
+  "fields": {
+    "name": "Рюрик",
+    "surname": "Большаков",
+    "age": 19,
+    "sex": "f",
+    "active": true,
+    "course": [
+      24,
+      18,
+      19
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 84,
+  "fields": {
+    "name": "Ким",
+    "surname": "Щукина",
+    "age": 55,
+    "sex": "m",
+    "active": true,
+    "course": [
+      20,
+      18,
+      14
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 85,
+  "fields": {
+    "name": "Викторин",
+    "surname": "Дмитриева",
+    "age": 52,
+    "sex": "m",
+    "active": false,
+    "course": [
+      23,
+      24,
+      21,
+      15
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 86,
+  "fields": {
+    "name": "Леонтий",
+    "surname": "Самойлова",
+    "age": 20,
+    "sex": "m",
+    "active": false,
+    "course": [
+      21,
+      18,
+      19,
+      15
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 87,
+  "fields": {
+    "name": "Антип",
+    "surname": "Юдина",
+    "age": 43,
+    "sex": "m",
+    "active": false,
+    "course": [
+      19
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 88,
+  "fields": {
+    "name": "Афиноген",
+    "surname": "Ершов",
+    "age": 38,
+    "sex": "m",
+    "active": false,
+    "course": [
+      23,
+      14,
+      16
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 89,
+  "fields": {
+    "name": "Сократ",
+    "surname": "Ершова",
+    "age": 58,
+    "sex": "m",
+    "active": true,
+    "course": [
+      22,
+      14,
+      15
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 90,
+  "fields": {
+    "name": "Надежда",
+    "surname": "Лебедева",
+    "age": 54,
+    "sex": "m",
+    "active": true,
+    "course": [
+      23,
+      20,
+      19
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 91,
+  "fields": {
+    "name": "Спартак",
+    "surname": "Колесникова",
+    "age": 48,
+    "sex": "f",
+    "active": true,
+    "course": [
+      24,
+      21,
+      15
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 92,
+  "fields": {
+    "name": "Авксентий",
+    "surname": "Коновалов",
+    "age": 55,
+    "sex": "m",
+    "active": false,
+    "course": [
+      24,
+      20,
+      19
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 93,
+  "fields": {
+    "name": "Трофим",
+    "surname": "Кононова",
+    "age": 49,
+    "sex": "f",
+    "active": true,
+    "course": [
+      25,
+      20,
+      17,
+      15
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 94,
+  "fields": {
+    "name": "Остромир",
+    "surname": "Романов",
+    "age": 26,
+    "sex": "f",
+    "active": true,
+    "course": [
+      20
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 95,
+  "fields": {
+    "name": "Федосий",
+    "surname": "Зимин",
+    "age": 26,
+    "sex": "m",
+    "active": false,
+    "course": [
+      23,
+      21,
+      17,
+      14
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 96,
+  "fields": {
+    "name": "Иван",
+    "surname": "Зуева",
+    "age": 59,
+    "sex": "f",
+    "active": false,
+    "course": [
+      17
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 97,
+  "fields": {
+    "name": "Аполлон",
+    "surname": "Кудряшов",
+    "age": 60,
+    "sex": "f",
+    "active": false,
+    "course": [
+      19
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 98,
+  "fields": {
+    "name": "Алексей",
+    "surname": "Лапин",
+    "age": 49,
+    "sex": "f",
+    "active": true,
+    "course": [
+      24,
+      21
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 99,
+  "fields": {
+    "name": "Кондратий",
+    "surname": "Евдокимов",
+    "age": 51,
+    "sex": "f",
+    "active": false,
+    "course": [
+      24,
+      15
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 100,
+  "fields": {
+    "name": "Изот",
+    "surname": "Фролов",
+    "age": 45,
+    "sex": "f",
+    "active": true,
+    "course": [
+      22,
+      17,
+      15,
+      16
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 101,
+  "fields": {
+    "name": "Спиридон",
+    "surname": "Кириллова",
+    "age": 35,
+    "sex": "m",
+    "active": false,
+    "course": [
+      25,
+      17,
+      14
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 102,
+  "fields": {
+    "name": "Антонин",
+    "surname": "Киселева",
+    "age": 34,
+    "sex": "m",
+    "active": false,
+    "course": [
+      20
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 103,
+  "fields": {
+    "name": "Влас",
+    "surname": "Блинова",
+    "age": 52,
+    "sex": "m",
+    "active": true,
+    "course": [
+      23,
+      18
+    ]
+  }
+},
+{
+  "model": "main.student",
+  "pk": 104,
+  "fields": {
+    "name": "User1",
+    "surname": "User111",
+    "age": 22,
+    "sex": "m",
+    "active": true,
+    "course": [
+      24,
+      21,
+      19
+    ]
+  }
+},
+{
+  "model": "main.course",
+  "pk": 14,
+  "fields": {
+    "name": "py",
+    "course_num": 1,
+    "start_date": "2026-01-16",
+    "end_date": "2026-03-21",
+    "description": "Python — поток 1"
+  }
+},
+{
+  "model": "main.course",
+  "pk": 15,
+  "fields": {
+    "name": "py",
+    "course_num": 2,
+    "start_date": "2025-11-17",
+    "end_date": "2026-04-22",
+    "description": "Python — поток 2"
+  }
+},
+{
+  "model": "main.course",
+  "pk": 16,
+  "fields": {
+    "name": "py",
+    "course_num": 3,
+    "start_date": "2025-12-20",
+    "end_date": "2026-02-21",
+    "description": "Python — поток 3"
+  }
+},
+{
+  "model": "main.course",
+  "pk": 17,
+  "fields": {
+    "name": "js",
+    "course_num": 1,
+    "start_date": "2025-09-05",
+    "end_date": "2026-04-08",
+    "description": "JavaScript — поток 1"
+  }
+},
+{
+  "model": "main.course",
+  "pk": 18,
+  "fields": {
+    "name": "js",
+    "course_num": 2,
+    "start_date": "2025-11-15",
+    "end_date": "2026-04-21",
+    "description": "JavaScript — поток 2"
+  }
+},
+{
+  "model": "main.course",
+  "pk": 19,
+  "fields": {
+    "name": "js",
+    "course_num": 3,
+    "start_date": "2025-11-23",
+    "end_date": "2026-03-16",
+    "description": "JavaScript — поток 3"
+  }
+},
+{
+  "model": "main.course",
+  "pk": 20,
+  "fields": {
+    "name": "c",
+    "course_num": 1,
+    "start_date": "2025-12-10",
+    "end_date": "2026-04-23",
+    "description": "C++ — поток 1"
+  }
+},
+{
+  "model": "main.course",
+  "pk": 21,
+  "fields": {
+    "name": "c",
+    "course_num": 2,
+    "start_date": "2026-01-16",
+    "end_date": "2026-04-05",
+    "description": "C++ — поток 2"
+  }
+},
+{
+  "model": "main.course",
+  "pk": 22,
+  "fields": {
+    "name": "c",
+    "course_num": 3,
+    "start_date": "2026-01-06",
+    "end_date": "2026-03-23",
+    "description": "C++ — поток 3"
+  }
+},
+{
+  "model": "main.course",
+  "pk": 23,
+  "fields": {
+    "name": "an",
+    "course_num": 1,
+    "start_date": "2025-12-21",
+    "end_date": "2026-03-09",
+    "description": "Android — поток 1"
+  }
+},
+{
+  "model": "main.course",
+  "pk": 24,
+  "fields": {
+    "name": "an",
+    "course_num": 2,
+    "start_date": "2025-08-28",
+    "end_date": "2026-03-18",
+    "description": "Android — поток 2"
+  }
+},
+{
+  "model": "main.course",
+  "pk": 25,
+  "fields": {
+    "name": "an",
+    "course_num": 3,
+    "start_date": "2025-09-29",
+    "end_date": "2026-01-26",
+    "description": "Android — поток 3"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 506,
+  "fields": {
+    "person": 54,
+    "grade": 78,
+    "course": 21,
+    "date": "2025-12-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 507,
+  "fields": {
+    "person": 54,
+    "grade": 92,
+    "course": 21,
+    "date": "2025-12-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 508,
+  "fields": {
+    "person": 54,
+    "grade": 78,
+    "course": 21,
+    "date": "2026-01-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 509,
+  "fields": {
+    "person": 54,
+    "grade": 83,
+    "course": 21,
+    "date": "2026-01-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 510,
+  "fields": {
+    "person": 54,
+    "grade": 98,
+    "course": 21,
+    "date": "2025-12-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 511,
+  "fields": {
+    "person": 54,
+    "grade": 54,
+    "course": 21,
+    "date": "2025-12-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 512,
+  "fields": {
+    "person": 54,
+    "grade": 95,
+    "course": 21,
+    "date": "2026-01-24",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 513,
+  "fields": {
+    "person": 54,
+    "grade": 64,
+    "course": 21,
+    "date": "2026-02-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 514,
+  "fields": {
+    "person": 54,
+    "grade": 57,
+    "course": 21,
+    "date": "2025-12-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 515,
+  "fields": {
+    "person": 54,
+    "grade": 81,
+    "course": 21,
+    "date": "2025-12-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 516,
+  "fields": {
+    "person": 55,
+    "grade": 80,
+    "course": 15,
+    "date": "2026-01-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 517,
+  "fields": {
+    "person": 55,
+    "grade": 55,
+    "course": 22,
+    "date": "2026-01-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 518,
+  "fields": {
+    "person": 55,
+    "grade": 89,
+    "course": 22,
+    "date": "2026-01-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 519,
+  "fields": {
+    "person": 55,
+    "grade": 97,
+    "course": 15,
+    "date": "2026-02-19",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 520,
+  "fields": {
+    "person": 55,
+    "grade": 67,
+    "course": 22,
+    "date": "2026-01-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 521,
+  "fields": {
+    "person": 55,
+    "grade": 59,
+    "course": 15,
+    "date": "2025-12-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 522,
+  "fields": {
+    "person": 55,
+    "grade": 71,
+    "course": 15,
+    "date": "2026-02-04",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 523,
+  "fields": {
+    "person": 55,
+    "grade": 73,
+    "course": 15,
+    "date": "2026-01-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 524,
+  "fields": {
+    "person": 55,
+    "grade": 88,
+    "course": 15,
+    "date": "2025-12-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 525,
+  "fields": {
+    "person": 55,
+    "grade": 65,
+    "course": 15,
+    "date": "2026-02-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 526,
+  "fields": {
+    "person": 56,
+    "grade": 59,
+    "course": 22,
+    "date": "2026-01-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 527,
+  "fields": {
+    "person": 56,
+    "grade": 76,
+    "course": 22,
+    "date": "2025-12-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 528,
+  "fields": {
+    "person": 56,
+    "grade": 96,
+    "course": 16,
+    "date": "2026-02-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 529,
+  "fields": {
+    "person": 56,
+    "grade": 55,
+    "course": 22,
+    "date": "2025-12-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 530,
+  "fields": {
+    "person": 56,
+    "grade": 72,
+    "course": 25,
+    "date": "2026-02-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 531,
+  "fields": {
+    "person": 56,
+    "grade": 88,
+    "course": 16,
+    "date": "2025-12-19",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 532,
+  "fields": {
+    "person": 56,
+    "grade": 81,
+    "course": 22,
+    "date": "2026-02-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 533,
+  "fields": {
+    "person": 56,
+    "grade": 88,
+    "course": 22,
+    "date": "2026-02-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 534,
+  "fields": {
+    "person": 56,
+    "grade": 88,
+    "course": 22,
+    "date": "2026-01-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 535,
+  "fields": {
+    "person": 56,
+    "grade": 90,
+    "course": 16,
+    "date": "2026-02-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 536,
+  "fields": {
+    "person": 57,
+    "grade": 68,
+    "course": 17,
+    "date": "2026-01-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 537,
+  "fields": {
+    "person": 57,
+    "grade": 74,
+    "course": 17,
+    "date": "2026-02-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 538,
+  "fields": {
+    "person": 57,
+    "grade": 95,
+    "course": 17,
+    "date": "2025-12-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 539,
+  "fields": {
+    "person": 57,
+    "grade": 91,
+    "course": 17,
+    "date": "2025-12-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 540,
+  "fields": {
+    "person": 57,
+    "grade": 86,
+    "course": 17,
+    "date": "2025-12-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 541,
+  "fields": {
+    "person": 57,
+    "grade": 87,
+    "course": 17,
+    "date": "2025-12-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 542,
+  "fields": {
+    "person": 57,
+    "grade": 58,
+    "course": 17,
+    "date": "2026-01-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 543,
+  "fields": {
+    "person": 57,
+    "grade": 80,
+    "course": 17,
+    "date": "2025-12-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 544,
+  "fields": {
+    "person": 57,
+    "grade": 100,
+    "course": 17,
+    "date": "2026-02-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 545,
+  "fields": {
+    "person": 57,
+    "grade": 99,
+    "course": 17,
+    "date": "2025-11-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 546,
+  "fields": {
+    "person": 58,
+    "grade": 81,
+    "course": 21,
+    "date": "2026-01-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 547,
+  "fields": {
+    "person": 58,
+    "grade": 72,
+    "course": 16,
+    "date": "2026-02-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 548,
+  "fields": {
+    "person": 58,
+    "grade": 92,
+    "course": 23,
+    "date": "2025-12-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 549,
+  "fields": {
+    "person": 58,
+    "grade": 96,
+    "course": 23,
+    "date": "2025-12-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 550,
+  "fields": {
+    "person": 58,
+    "grade": 87,
+    "course": 21,
+    "date": "2026-02-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 551,
+  "fields": {
+    "person": 58,
+    "grade": 84,
+    "course": 23,
+    "date": "2026-02-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 552,
+  "fields": {
+    "person": 58,
+    "grade": 62,
+    "course": 21,
+    "date": "2025-12-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 553,
+  "fields": {
+    "person": 58,
+    "grade": 93,
+    "course": 23,
+    "date": "2025-12-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 554,
+  "fields": {
+    "person": 58,
+    "grade": 78,
+    "course": 21,
+    "date": "2025-12-11",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 555,
+  "fields": {
+    "person": 58,
+    "grade": 79,
+    "course": 23,
+    "date": "2025-12-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 556,
+  "fields": {
+    "person": 59,
+    "grade": 100,
+    "course": 22,
+    "date": "2026-02-11",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 557,
+  "fields": {
+    "person": 59,
+    "grade": 77,
+    "course": 22,
+    "date": "2026-01-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 558,
+  "fields": {
+    "person": 59,
+    "grade": 69,
+    "course": 17,
+    "date": "2025-12-31",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 559,
+  "fields": {
+    "person": 59,
+    "grade": 71,
+    "course": 22,
+    "date": "2026-01-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 560,
+  "fields": {
+    "person": 59,
+    "grade": 95,
+    "course": 23,
+    "date": "2025-12-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 561,
+  "fields": {
+    "person": 59,
+    "grade": 56,
+    "course": 22,
+    "date": "2026-01-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 562,
+  "fields": {
+    "person": 59,
+    "grade": 95,
+    "course": 23,
+    "date": "2026-01-11",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 563,
+  "fields": {
+    "person": 59,
+    "grade": 54,
+    "course": 22,
+    "date": "2025-12-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 564,
+  "fields": {
+    "person": 59,
+    "grade": 92,
+    "course": 22,
+    "date": "2025-12-24",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 565,
+  "fields": {
+    "person": 59,
+    "grade": 95,
+    "course": 23,
+    "date": "2025-12-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 566,
+  "fields": {
+    "person": 60,
+    "grade": 70,
+    "course": 21,
+    "date": "2025-11-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 567,
+  "fields": {
+    "person": 60,
+    "grade": 61,
+    "course": 16,
+    "date": "2026-02-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 568,
+  "fields": {
+    "person": 60,
+    "grade": 82,
+    "course": 16,
+    "date": "2026-01-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 569,
+  "fields": {
+    "person": 60,
+    "grade": 85,
+    "course": 17,
+    "date": "2025-12-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 570,
+  "fields": {
+    "person": 60,
+    "grade": 69,
+    "course": 21,
+    "date": "2026-02-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 571,
+  "fields": {
+    "person": 60,
+    "grade": 56,
+    "course": 21,
+    "date": "2025-12-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 572,
+  "fields": {
+    "person": 60,
+    "grade": 71,
+    "course": 21,
+    "date": "2026-01-31",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 573,
+  "fields": {
+    "person": 60,
+    "grade": 57,
+    "course": 17,
+    "date": "2025-12-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 574,
+  "fields": {
+    "person": 60,
+    "grade": 68,
+    "course": 17,
+    "date": "2026-01-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 575,
+  "fields": {
+    "person": 60,
+    "grade": 92,
+    "course": 16,
+    "date": "2026-02-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 576,
+  "fields": {
+    "person": 61,
+    "grade": 61,
+    "course": 22,
+    "date": "2025-12-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 577,
+  "fields": {
+    "person": 61,
+    "grade": 76,
+    "course": 22,
+    "date": "2026-02-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 578,
+  "fields": {
+    "person": 61,
+    "grade": 70,
+    "course": 16,
+    "date": "2026-01-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 579,
+  "fields": {
+    "person": 61,
+    "grade": 60,
+    "course": 16,
+    "date": "2026-02-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 580,
+  "fields": {
+    "person": 61,
+    "grade": 86,
+    "course": 22,
+    "date": "2026-01-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 581,
+  "fields": {
+    "person": 61,
+    "grade": 67,
+    "course": 16,
+    "date": "2025-12-11",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 582,
+  "fields": {
+    "person": 61,
+    "grade": 91,
+    "course": 16,
+    "date": "2026-01-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 583,
+  "fields": {
+    "person": 61,
+    "grade": 50,
+    "course": 22,
+    "date": "2025-12-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 584,
+  "fields": {
+    "person": 61,
+    "grade": 78,
+    "course": 22,
+    "date": "2026-02-11",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 585,
+  "fields": {
+    "person": 61,
+    "grade": 77,
+    "course": 22,
+    "date": "2026-01-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 586,
+  "fields": {
+    "person": 62,
+    "grade": 78,
+    "course": 25,
+    "date": "2026-02-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 587,
+  "fields": {
+    "person": 62,
+    "grade": 71,
+    "course": 17,
+    "date": "2026-01-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 588,
+  "fields": {
+    "person": 62,
+    "grade": 76,
+    "course": 20,
+    "date": "2025-12-21",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 589,
+  "fields": {
+    "person": 62,
+    "grade": 98,
+    "course": 15,
+    "date": "2026-02-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 590,
+  "fields": {
+    "person": 62,
+    "grade": 79,
+    "course": 25,
+    "date": "2025-12-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 591,
+  "fields": {
+    "person": 62,
+    "grade": 94,
+    "course": 25,
+    "date": "2025-12-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 592,
+  "fields": {
+    "person": 62,
+    "grade": 71,
+    "course": 15,
+    "date": "2026-01-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 593,
+  "fields": {
+    "person": 62,
+    "grade": 72,
+    "course": 15,
+    "date": "2026-02-11",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 594,
+  "fields": {
+    "person": 62,
+    "grade": 74,
+    "course": 17,
+    "date": "2026-01-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 595,
+  "fields": {
+    "person": 62,
+    "grade": 98,
+    "course": 15,
+    "date": "2025-12-31",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 596,
+  "fields": {
+    "person": 63,
+    "grade": 86,
+    "course": 19,
+    "date": "2025-12-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 597,
+  "fields": {
+    "person": 63,
+    "grade": 58,
+    "course": 19,
+    "date": "2026-02-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 598,
+  "fields": {
+    "person": 63,
+    "grade": 98,
+    "course": 19,
+    "date": "2026-02-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 599,
+  "fields": {
+    "person": 63,
+    "grade": 54,
+    "course": 22,
+    "date": "2026-02-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 600,
+  "fields": {
+    "person": 63,
+    "grade": 55,
+    "course": 19,
+    "date": "2026-02-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 601,
+  "fields": {
+    "person": 63,
+    "grade": 67,
+    "course": 22,
+    "date": "2025-12-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 602,
+  "fields": {
+    "person": 63,
+    "grade": 82,
+    "course": 19,
+    "date": "2025-12-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 603,
+  "fields": {
+    "person": 63,
+    "grade": 61,
+    "course": 22,
+    "date": "2026-01-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 604,
+  "fields": {
+    "person": 63,
+    "grade": 70,
+    "course": 22,
+    "date": "2026-01-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 605,
+  "fields": {
+    "person": 63,
+    "grade": 98,
+    "course": 19,
+    "date": "2026-01-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 606,
+  "fields": {
+    "person": 64,
+    "grade": 75,
+    "course": 14,
+    "date": "2025-12-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 607,
+  "fields": {
+    "person": 64,
+    "grade": 81,
+    "course": 15,
+    "date": "2025-12-24",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 608,
+  "fields": {
+    "person": 64,
+    "grade": 68,
+    "course": 15,
+    "date": "2026-02-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 609,
+  "fields": {
+    "person": 64,
+    "grade": 60,
+    "course": 21,
+    "date": "2026-01-25",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 610,
+  "fields": {
+    "person": 64,
+    "grade": 93,
+    "course": 21,
+    "date": "2025-11-27",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 611,
+  "fields": {
+    "person": 64,
+    "grade": 58,
+    "course": 21,
+    "date": "2025-12-21",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 612,
+  "fields": {
+    "person": 64,
+    "grade": 73,
+    "course": 21,
+    "date": "2026-02-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 613,
+  "fields": {
+    "person": 64,
+    "grade": 59,
+    "course": 14,
+    "date": "2026-01-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 614,
+  "fields": {
+    "person": 64,
+    "grade": 74,
+    "course": 21,
+    "date": "2026-02-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 615,
+  "fields": {
+    "person": 64,
+    "grade": 59,
+    "course": 15,
+    "date": "2025-12-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 616,
+  "fields": {
+    "person": 65,
+    "grade": 60,
+    "course": 18,
+    "date": "2026-02-04",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 617,
+  "fields": {
+    "person": 65,
+    "grade": 53,
+    "course": 15,
+    "date": "2025-12-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 618,
+  "fields": {
+    "person": 65,
+    "grade": 72,
+    "course": 18,
+    "date": "2026-01-19",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 619,
+  "fields": {
+    "person": 65,
+    "grade": 79,
+    "course": 25,
+    "date": "2025-12-27",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 620,
+  "fields": {
+    "person": 65,
+    "grade": 90,
+    "course": 15,
+    "date": "2026-01-31",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 621,
+  "fields": {
+    "person": 65,
+    "grade": 55,
+    "course": 14,
+    "date": "2026-02-11",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 622,
+  "fields": {
+    "person": 65,
+    "grade": 95,
+    "course": 18,
+    "date": "2026-02-11",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 623,
+  "fields": {
+    "person": 65,
+    "grade": 99,
+    "course": 18,
+    "date": "2025-11-27",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 624,
+  "fields": {
+    "person": 65,
+    "grade": 57,
+    "course": 15,
+    "date": "2025-12-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 625,
+  "fields": {
+    "person": 65,
+    "grade": 84,
+    "course": 25,
+    "date": "2025-12-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 626,
+  "fields": {
+    "person": 66,
+    "grade": 100,
+    "course": 24,
+    "date": "2026-01-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 627,
+  "fields": {
+    "person": 66,
+    "grade": 99,
+    "course": 24,
+    "date": "2025-12-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 628,
+  "fields": {
+    "person": 66,
+    "grade": 57,
+    "course": 24,
+    "date": "2026-01-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 629,
+  "fields": {
+    "person": 66,
+    "grade": 63,
+    "course": 24,
+    "date": "2026-01-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 630,
+  "fields": {
+    "person": 66,
+    "grade": 53,
+    "course": 25,
+    "date": "2026-01-21",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 631,
+  "fields": {
+    "person": 66,
+    "grade": 82,
+    "course": 25,
+    "date": "2026-01-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 632,
+  "fields": {
+    "person": 66,
+    "grade": 86,
+    "course": 25,
+    "date": "2026-02-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 633,
+  "fields": {
+    "person": 66,
+    "grade": 64,
+    "course": 24,
+    "date": "2026-02-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 634,
+  "fields": {
+    "person": 66,
+    "grade": 66,
+    "course": 25,
+    "date": "2025-12-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 635,
+  "fields": {
+    "person": 66,
+    "grade": 91,
+    "course": 25,
+    "date": "2025-12-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 636,
+  "fields": {
+    "person": 67,
+    "grade": 60,
+    "course": 22,
+    "date": "2026-01-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 637,
+  "fields": {
+    "person": 67,
+    "grade": 73,
+    "course": 19,
+    "date": "2026-02-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 638,
+  "fields": {
+    "person": 67,
+    "grade": 90,
+    "course": 22,
+    "date": "2025-12-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 639,
+  "fields": {
+    "person": 67,
+    "grade": 74,
+    "course": 22,
+    "date": "2026-02-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 640,
+  "fields": {
+    "person": 67,
+    "grade": 65,
+    "course": 21,
+    "date": "2026-02-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 641,
+  "fields": {
+    "person": 67,
+    "grade": 79,
+    "course": 21,
+    "date": "2026-02-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 642,
+  "fields": {
+    "person": 67,
+    "grade": 88,
+    "course": 21,
+    "date": "2025-12-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 643,
+  "fields": {
+    "person": 67,
+    "grade": 65,
+    "course": 21,
+    "date": "2026-01-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 644,
+  "fields": {
+    "person": 67,
+    "grade": 50,
+    "course": 19,
+    "date": "2026-02-21",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 645,
+  "fields": {
+    "person": 67,
+    "grade": 91,
+    "course": 22,
+    "date": "2025-12-24",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 646,
+  "fields": {
+    "person": 68,
+    "grade": 63,
+    "course": 22,
+    "date": "2026-01-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 647,
+  "fields": {
+    "person": 68,
+    "grade": 89,
+    "course": 21,
+    "date": "2025-12-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 648,
+  "fields": {
+    "person": 68,
+    "grade": 84,
+    "course": 21,
+    "date": "2026-02-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 649,
+  "fields": {
+    "person": 68,
+    "grade": 58,
+    "course": 21,
+    "date": "2026-02-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 650,
+  "fields": {
+    "person": 68,
+    "grade": 86,
+    "course": 21,
+    "date": "2026-01-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 651,
+  "fields": {
+    "person": 68,
+    "grade": 75,
+    "course": 21,
+    "date": "2026-01-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 652,
+  "fields": {
+    "person": 68,
+    "grade": 51,
+    "course": 25,
+    "date": "2026-02-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 653,
+  "fields": {
+    "person": 68,
+    "grade": 89,
+    "course": 22,
+    "date": "2026-01-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 654,
+  "fields": {
+    "person": 68,
+    "grade": 87,
+    "course": 21,
+    "date": "2026-02-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 655,
+  "fields": {
+    "person": 68,
+    "grade": 64,
+    "course": 22,
+    "date": "2025-12-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 656,
+  "fields": {
+    "person": 69,
+    "grade": 78,
+    "course": 14,
+    "date": "2026-02-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 657,
+  "fields": {
+    "person": 69,
+    "grade": 75,
+    "course": 14,
+    "date": "2025-12-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 658,
+  "fields": {
+    "person": 69,
+    "grade": 60,
+    "course": 14,
+    "date": "2026-02-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 659,
+  "fields": {
+    "person": 69,
+    "grade": 69,
+    "course": 14,
+    "date": "2025-12-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 660,
+  "fields": {
+    "person": 69,
+    "grade": 99,
+    "course": 14,
+    "date": "2026-01-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 661,
+  "fields": {
+    "person": 69,
+    "grade": 69,
+    "course": 14,
+    "date": "2026-02-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 662,
+  "fields": {
+    "person": 69,
+    "grade": 80,
+    "course": 14,
+    "date": "2026-02-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 663,
+  "fields": {
+    "person": 69,
+    "grade": 76,
+    "course": 14,
+    "date": "2026-01-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 664,
+  "fields": {
+    "person": 69,
+    "grade": 92,
+    "course": 14,
+    "date": "2025-11-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 665,
+  "fields": {
+    "person": 69,
+    "grade": 70,
+    "course": 14,
+    "date": "2026-01-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 666,
+  "fields": {
+    "person": 70,
+    "grade": 80,
+    "course": 14,
+    "date": "2025-12-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 667,
+  "fields": {
+    "person": 70,
+    "grade": 78,
+    "course": 14,
+    "date": "2026-01-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 668,
+  "fields": {
+    "person": 70,
+    "grade": 96,
+    "course": 20,
+    "date": "2025-12-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 669,
+  "fields": {
+    "person": 70,
+    "grade": 97,
+    "course": 25,
+    "date": "2026-02-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 670,
+  "fields": {
+    "person": 70,
+    "grade": 99,
+    "course": 20,
+    "date": "2026-02-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 671,
+  "fields": {
+    "person": 70,
+    "grade": 74,
+    "course": 20,
+    "date": "2026-02-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 672,
+  "fields": {
+    "person": 70,
+    "grade": 98,
+    "course": 20,
+    "date": "2026-02-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 673,
+  "fields": {
+    "person": 70,
+    "grade": 79,
+    "course": 20,
+    "date": "2025-12-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 674,
+  "fields": {
+    "person": 70,
+    "grade": 60,
+    "course": 25,
+    "date": "2025-12-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 675,
+  "fields": {
+    "person": 70,
+    "grade": 82,
+    "course": 20,
+    "date": "2025-12-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 676,
+  "fields": {
+    "person": 71,
+    "grade": 71,
+    "course": 20,
+    "date": "2026-01-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 677,
+  "fields": {
+    "person": 71,
+    "grade": 62,
+    "course": 25,
+    "date": "2025-12-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 678,
+  "fields": {
+    "person": 71,
+    "grade": 62,
+    "course": 25,
+    "date": "2026-02-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 679,
+  "fields": {
+    "person": 71,
+    "grade": 80,
+    "course": 24,
+    "date": "2026-02-11",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 680,
+  "fields": {
+    "person": 71,
+    "grade": 57,
+    "course": 20,
+    "date": "2025-12-25",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 681,
+  "fields": {
+    "person": 71,
+    "grade": 92,
+    "course": 20,
+    "date": "2026-01-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 682,
+  "fields": {
+    "person": 71,
+    "grade": 50,
+    "course": 21,
+    "date": "2026-01-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 683,
+  "fields": {
+    "person": 71,
+    "grade": 52,
+    "course": 20,
+    "date": "2026-01-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 684,
+  "fields": {
+    "person": 71,
+    "grade": 51,
+    "course": 21,
+    "date": "2025-12-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 685,
+  "fields": {
+    "person": 71,
+    "grade": 84,
+    "course": 25,
+    "date": "2026-01-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 686,
+  "fields": {
+    "person": 72,
+    "grade": 88,
+    "course": 14,
+    "date": "2026-02-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 687,
+  "fields": {
+    "person": 72,
+    "grade": 79,
+    "course": 14,
+    "date": "2026-02-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 688,
+  "fields": {
+    "person": 72,
+    "grade": 72,
+    "course": 24,
+    "date": "2026-01-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 689,
+  "fields": {
+    "person": 72,
+    "grade": 65,
+    "course": 14,
+    "date": "2025-12-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 690,
+  "fields": {
+    "person": 72,
+    "grade": 61,
+    "course": 18,
+    "date": "2026-01-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 691,
+  "fields": {
+    "person": 72,
+    "grade": 79,
+    "course": 19,
+    "date": "2026-02-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 692,
+  "fields": {
+    "person": 72,
+    "grade": 52,
+    "course": 14,
+    "date": "2026-02-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 693,
+  "fields": {
+    "person": 72,
+    "grade": 56,
+    "course": 19,
+    "date": "2026-01-19",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 694,
+  "fields": {
+    "person": 72,
+    "grade": 74,
+    "course": 24,
+    "date": "2026-02-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 695,
+  "fields": {
+    "person": 72,
+    "grade": 97,
+    "course": 14,
+    "date": "2026-02-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 696,
+  "fields": {
+    "person": 73,
+    "grade": 91,
+    "course": 20,
+    "date": "2025-11-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 697,
+  "fields": {
+    "person": 73,
+    "grade": 88,
+    "course": 20,
+    "date": "2025-11-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 698,
+  "fields": {
+    "person": 73,
+    "grade": 60,
+    "course": 16,
+    "date": "2026-01-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 699,
+  "fields": {
+    "person": 73,
+    "grade": 77,
+    "course": 19,
+    "date": "2025-12-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 700,
+  "fields": {
+    "person": 73,
+    "grade": 68,
+    "course": 20,
+    "date": "2026-01-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 701,
+  "fields": {
+    "person": 73,
+    "grade": 52,
+    "course": 18,
+    "date": "2026-02-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 702,
+  "fields": {
+    "person": 73,
+    "grade": 99,
+    "course": 18,
+    "date": "2026-02-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 703,
+  "fields": {
+    "person": 73,
+    "grade": 99,
+    "course": 18,
+    "date": "2026-02-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 704,
+  "fields": {
+    "person": 73,
+    "grade": 98,
+    "course": 19,
+    "date": "2026-02-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 705,
+  "fields": {
+    "person": 73,
+    "grade": 58,
+    "course": 18,
+    "date": "2026-01-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 706,
+  "fields": {
+    "person": 74,
+    "grade": 63,
+    "course": 21,
+    "date": "2025-12-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 707,
+  "fields": {
+    "person": 74,
+    "grade": 69,
+    "course": 23,
+    "date": "2025-12-11",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 708,
+  "fields": {
+    "person": 74,
+    "grade": 86,
+    "course": 23,
+    "date": "2025-11-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 709,
+  "fields": {
+    "person": 74,
+    "grade": 82,
+    "course": 21,
+    "date": "2026-01-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 710,
+  "fields": {
+    "person": 74,
+    "grade": 80,
+    "course": 23,
+    "date": "2025-12-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 711,
+  "fields": {
+    "person": 74,
+    "grade": 96,
+    "course": 21,
+    "date": "2026-02-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 712,
+  "fields": {
+    "person": 74,
+    "grade": 73,
+    "course": 21,
+    "date": "2026-02-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 713,
+  "fields": {
+    "person": 74,
+    "grade": 83,
+    "course": 23,
+    "date": "2026-02-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 714,
+  "fields": {
+    "person": 74,
+    "grade": 73,
+    "course": 21,
+    "date": "2026-02-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 715,
+  "fields": {
+    "person": 74,
+    "grade": 91,
+    "course": 23,
+    "date": "2025-12-24",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 716,
+  "fields": {
+    "person": 75,
+    "grade": 60,
+    "course": 15,
+    "date": "2025-12-25",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 717,
+  "fields": {
+    "person": 75,
+    "grade": 55,
+    "course": 15,
+    "date": "2026-01-31",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 718,
+  "fields": {
+    "person": 75,
+    "grade": 93,
+    "course": 24,
+    "date": "2026-01-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 719,
+  "fields": {
+    "person": 75,
+    "grade": 65,
+    "course": 15,
+    "date": "2026-01-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 720,
+  "fields": {
+    "person": 75,
+    "grade": 94,
+    "course": 24,
+    "date": "2025-12-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 721,
+  "fields": {
+    "person": 75,
+    "grade": 50,
+    "course": 15,
+    "date": "2025-12-31",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 722,
+  "fields": {
+    "person": 75,
+    "grade": 72,
+    "course": 15,
+    "date": "2025-12-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 723,
+  "fields": {
+    "person": 75,
+    "grade": 78,
+    "course": 24,
+    "date": "2026-01-19",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 724,
+  "fields": {
+    "person": 75,
+    "grade": 53,
+    "course": 24,
+    "date": "2025-12-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 725,
+  "fields": {
+    "person": 75,
+    "grade": 94,
+    "course": 24,
+    "date": "2026-02-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 726,
+  "fields": {
+    "person": 76,
+    "grade": 94,
+    "course": 17,
+    "date": "2026-01-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 727,
+  "fields": {
+    "person": 76,
+    "grade": 87,
+    "course": 17,
+    "date": "2025-12-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 728,
+  "fields": {
+    "person": 76,
+    "grade": 97,
+    "course": 17,
+    "date": "2025-12-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 729,
+  "fields": {
+    "person": 76,
+    "grade": 83,
+    "course": 17,
+    "date": "2025-12-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 730,
+  "fields": {
+    "person": 76,
+    "grade": 72,
+    "course": 17,
+    "date": "2026-02-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 731,
+  "fields": {
+    "person": 76,
+    "grade": 93,
+    "course": 17,
+    "date": "2026-02-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 732,
+  "fields": {
+    "person": 76,
+    "grade": 58,
+    "course": 17,
+    "date": "2025-12-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 733,
+  "fields": {
+    "person": 76,
+    "grade": 50,
+    "course": 17,
+    "date": "2026-01-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 734,
+  "fields": {
+    "person": 76,
+    "grade": 75,
+    "course": 17,
+    "date": "2026-01-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 735,
+  "fields": {
+    "person": 76,
+    "grade": 97,
+    "course": 17,
+    "date": "2025-12-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 736,
+  "fields": {
+    "person": 77,
+    "grade": 86,
+    "course": 19,
+    "date": "2026-02-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 737,
+  "fields": {
+    "person": 77,
+    "grade": 66,
+    "course": 15,
+    "date": "2026-01-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 738,
+  "fields": {
+    "person": 77,
+    "grade": 66,
+    "course": 19,
+    "date": "2026-01-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 739,
+  "fields": {
+    "person": 77,
+    "grade": 75,
+    "course": 15,
+    "date": "2026-02-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 740,
+  "fields": {
+    "person": 77,
+    "grade": 52,
+    "course": 15,
+    "date": "2026-01-21",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 741,
+  "fields": {
+    "person": 77,
+    "grade": 51,
+    "course": 15,
+    "date": "2025-12-19",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 742,
+  "fields": {
+    "person": 77,
+    "grade": 50,
+    "course": 15,
+    "date": "2025-11-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 743,
+  "fields": {
+    "person": 77,
+    "grade": 77,
+    "course": 19,
+    "date": "2025-12-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 744,
+  "fields": {
+    "person": 77,
+    "grade": 54,
+    "course": 15,
+    "date": "2025-12-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 745,
+  "fields": {
+    "person": 77,
+    "grade": 85,
+    "course": 19,
+    "date": "2026-02-21",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 746,
+  "fields": {
+    "person": 78,
+    "grade": 70,
+    "course": 24,
+    "date": "2025-11-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 747,
+  "fields": {
+    "person": 78,
+    "grade": 58,
+    "course": 14,
+    "date": "2026-01-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 748,
+  "fields": {
+    "person": 78,
+    "grade": 64,
+    "course": 24,
+    "date": "2026-02-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 749,
+  "fields": {
+    "person": 78,
+    "grade": 83,
+    "course": 14,
+    "date": "2025-12-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 750,
+  "fields": {
+    "person": 78,
+    "grade": 70,
+    "course": 24,
+    "date": "2025-12-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 751,
+  "fields": {
+    "person": 78,
+    "grade": 96,
+    "course": 14,
+    "date": "2026-01-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 752,
+  "fields": {
+    "person": 78,
+    "grade": 61,
+    "course": 24,
+    "date": "2026-02-19",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 753,
+  "fields": {
+    "person": 78,
+    "grade": 71,
+    "course": 14,
+    "date": "2026-01-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 754,
+  "fields": {
+    "person": 78,
+    "grade": 57,
+    "course": 14,
+    "date": "2025-12-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 755,
+  "fields": {
+    "person": 78,
+    "grade": 79,
+    "course": 14,
+    "date": "2026-02-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 756,
+  "fields": {
+    "person": 79,
+    "grade": 64,
+    "course": 20,
+    "date": "2025-11-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 757,
+  "fields": {
+    "person": 79,
+    "grade": 88,
+    "course": 20,
+    "date": "2025-12-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 758,
+  "fields": {
+    "person": 79,
+    "grade": 77,
+    "course": 20,
+    "date": "2025-12-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 759,
+  "fields": {
+    "person": 79,
+    "grade": 71,
+    "course": 20,
+    "date": "2026-01-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 760,
+  "fields": {
+    "person": 79,
+    "grade": 56,
+    "course": 20,
+    "date": "2025-12-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 761,
+  "fields": {
+    "person": 79,
+    "grade": 70,
+    "course": 20,
+    "date": "2026-01-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 762,
+  "fields": {
+    "person": 79,
+    "grade": 79,
+    "course": 20,
+    "date": "2026-02-04",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 763,
+  "fields": {
+    "person": 79,
+    "grade": 53,
+    "course": 20,
+    "date": "2026-02-04",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 764,
+  "fields": {
+    "person": 79,
+    "grade": 77,
+    "course": 20,
+    "date": "2026-01-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 765,
+  "fields": {
+    "person": 79,
+    "grade": 91,
+    "course": 20,
+    "date": "2025-12-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 766,
+  "fields": {
+    "person": 80,
+    "grade": 63,
+    "course": 23,
+    "date": "2026-01-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 767,
+  "fields": {
+    "person": 80,
+    "grade": 53,
+    "course": 23,
+    "date": "2025-12-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 768,
+  "fields": {
+    "person": 80,
+    "grade": 75,
+    "course": 23,
+    "date": "2026-01-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 769,
+  "fields": {
+    "person": 80,
+    "grade": 95,
+    "course": 23,
+    "date": "2026-02-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 770,
+  "fields": {
+    "person": 80,
+    "grade": 86,
+    "course": 23,
+    "date": "2025-12-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 771,
+  "fields": {
+    "person": 80,
+    "grade": 98,
+    "course": 23,
+    "date": "2026-02-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 772,
+  "fields": {
+    "person": 80,
+    "grade": 97,
+    "course": 23,
+    "date": "2025-12-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 773,
+  "fields": {
+    "person": 80,
+    "grade": 92,
+    "course": 23,
+    "date": "2026-02-11",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 774,
+  "fields": {
+    "person": 80,
+    "grade": 62,
+    "course": 23,
+    "date": "2026-01-21",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 775,
+  "fields": {
+    "person": 80,
+    "grade": 59,
+    "course": 23,
+    "date": "2026-02-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 776,
+  "fields": {
+    "person": 81,
+    "grade": 81,
+    "course": 19,
+    "date": "2026-02-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 777,
+  "fields": {
+    "person": 81,
+    "grade": 72,
+    "course": 19,
+    "date": "2026-01-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 778,
+  "fields": {
+    "person": 81,
+    "grade": 60,
+    "course": 19,
+    "date": "2025-12-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 779,
+  "fields": {
+    "person": 81,
+    "grade": 93,
+    "course": 19,
+    "date": "2025-12-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 780,
+  "fields": {
+    "person": 81,
+    "grade": 55,
+    "course": 19,
+    "date": "2026-01-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 781,
+  "fields": {
+    "person": 81,
+    "grade": 58,
+    "course": 19,
+    "date": "2026-01-27",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 782,
+  "fields": {
+    "person": 81,
+    "grade": 90,
+    "course": 19,
+    "date": "2025-12-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 783,
+  "fields": {
+    "person": 81,
+    "grade": 64,
+    "course": 19,
+    "date": "2025-12-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 784,
+  "fields": {
+    "person": 81,
+    "grade": 82,
+    "course": 19,
+    "date": "2025-12-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 785,
+  "fields": {
+    "person": 81,
+    "grade": 74,
+    "course": 19,
+    "date": "2025-12-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 786,
+  "fields": {
+    "person": 82,
+    "grade": 99,
+    "course": 19,
+    "date": "2026-02-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 787,
+  "fields": {
+    "person": 82,
+    "grade": 68,
+    "course": 14,
+    "date": "2025-12-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 788,
+  "fields": {
+    "person": 82,
+    "grade": 92,
+    "course": 19,
+    "date": "2026-02-21",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 789,
+  "fields": {
+    "person": 82,
+    "grade": 52,
+    "course": 18,
+    "date": "2025-12-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 790,
+  "fields": {
+    "person": 82,
+    "grade": 57,
+    "course": 18,
+    "date": "2026-01-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 791,
+  "fields": {
+    "person": 82,
+    "grade": 96,
+    "course": 14,
+    "date": "2026-01-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 792,
+  "fields": {
+    "person": 82,
+    "grade": 96,
+    "course": 14,
+    "date": "2026-01-31",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 793,
+  "fields": {
+    "person": 82,
+    "grade": 96,
+    "course": 14,
+    "date": "2026-02-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 794,
+  "fields": {
+    "person": 82,
+    "grade": 99,
+    "course": 18,
+    "date": "2025-11-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 795,
+  "fields": {
+    "person": 82,
+    "grade": 93,
+    "course": 19,
+    "date": "2025-12-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 796,
+  "fields": {
+    "person": 83,
+    "grade": 73,
+    "course": 24,
+    "date": "2026-01-24",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 797,
+  "fields": {
+    "person": 83,
+    "grade": 96,
+    "course": 19,
+    "date": "2025-12-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 798,
+  "fields": {
+    "person": 83,
+    "grade": 85,
+    "course": 18,
+    "date": "2026-02-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 799,
+  "fields": {
+    "person": 83,
+    "grade": 70,
+    "course": 24,
+    "date": "2026-02-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 800,
+  "fields": {
+    "person": 83,
+    "grade": 90,
+    "course": 19,
+    "date": "2026-01-19",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 801,
+  "fields": {
+    "person": 83,
+    "grade": 96,
+    "course": 19,
+    "date": "2025-12-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 802,
+  "fields": {
+    "person": 83,
+    "grade": 76,
+    "course": 19,
+    "date": "2026-02-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 803,
+  "fields": {
+    "person": 83,
+    "grade": 57,
+    "course": 18,
+    "date": "2025-12-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 804,
+  "fields": {
+    "person": 83,
+    "grade": 76,
+    "course": 19,
+    "date": "2026-01-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 805,
+  "fields": {
+    "person": 83,
+    "grade": 96,
+    "course": 24,
+    "date": "2025-12-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 806,
+  "fields": {
+    "person": 84,
+    "grade": 73,
+    "course": 18,
+    "date": "2026-01-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 807,
+  "fields": {
+    "person": 84,
+    "grade": 63,
+    "course": 18,
+    "date": "2026-01-24",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 808,
+  "fields": {
+    "person": 84,
+    "grade": 89,
+    "course": 18,
+    "date": "2026-01-27",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 809,
+  "fields": {
+    "person": 84,
+    "grade": 81,
+    "course": 20,
+    "date": "2025-12-11",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 810,
+  "fields": {
+    "person": 84,
+    "grade": 72,
+    "course": 20,
+    "date": "2026-01-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 811,
+  "fields": {
+    "person": 84,
+    "grade": 97,
+    "course": 14,
+    "date": "2026-02-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 812,
+  "fields": {
+    "person": 84,
+    "grade": 88,
+    "course": 20,
+    "date": "2026-01-19",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 813,
+  "fields": {
+    "person": 84,
+    "grade": 78,
+    "course": 14,
+    "date": "2025-11-27",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 814,
+  "fields": {
+    "person": 84,
+    "grade": 77,
+    "course": 18,
+    "date": "2025-11-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 815,
+  "fields": {
+    "person": 84,
+    "grade": 89,
+    "course": 20,
+    "date": "2026-01-27",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 816,
+  "fields": {
+    "person": 85,
+    "grade": 70,
+    "course": 15,
+    "date": "2026-02-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 817,
+  "fields": {
+    "person": 85,
+    "grade": 70,
+    "course": 24,
+    "date": "2025-12-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 818,
+  "fields": {
+    "person": 85,
+    "grade": 92,
+    "course": 15,
+    "date": "2025-12-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 819,
+  "fields": {
+    "person": 85,
+    "grade": 71,
+    "course": 15,
+    "date": "2025-12-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 820,
+  "fields": {
+    "person": 85,
+    "grade": 69,
+    "course": 24,
+    "date": "2025-12-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 821,
+  "fields": {
+    "person": 85,
+    "grade": 81,
+    "course": 24,
+    "date": "2026-01-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 822,
+  "fields": {
+    "person": 85,
+    "grade": 83,
+    "course": 21,
+    "date": "2026-02-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 823,
+  "fields": {
+    "person": 85,
+    "grade": 71,
+    "course": 21,
+    "date": "2026-01-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 824,
+  "fields": {
+    "person": 85,
+    "grade": 99,
+    "course": 23,
+    "date": "2026-01-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 825,
+  "fields": {
+    "person": 85,
+    "grade": 59,
+    "course": 24,
+    "date": "2025-12-24",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 826,
+  "fields": {
+    "person": 86,
+    "grade": 67,
+    "course": 18,
+    "date": "2026-01-27",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 827,
+  "fields": {
+    "person": 86,
+    "grade": 69,
+    "course": 15,
+    "date": "2026-01-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 828,
+  "fields": {
+    "person": 86,
+    "grade": 84,
+    "course": 18,
+    "date": "2026-01-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 829,
+  "fields": {
+    "person": 86,
+    "grade": 52,
+    "course": 19,
+    "date": "2026-01-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 830,
+  "fields": {
+    "person": 86,
+    "grade": 53,
+    "course": 21,
+    "date": "2025-11-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 831,
+  "fields": {
+    "person": 86,
+    "grade": 93,
+    "course": 21,
+    "date": "2026-01-31",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 832,
+  "fields": {
+    "person": 86,
+    "grade": 67,
+    "course": 18,
+    "date": "2026-01-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 833,
+  "fields": {
+    "person": 86,
+    "grade": 90,
+    "course": 19,
+    "date": "2026-01-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 834,
+  "fields": {
+    "person": 86,
+    "grade": 64,
+    "course": 19,
+    "date": "2025-12-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 835,
+  "fields": {
+    "person": 86,
+    "grade": 62,
+    "course": 19,
+    "date": "2026-01-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 836,
+  "fields": {
+    "person": 87,
+    "grade": 69,
+    "course": 19,
+    "date": "2026-02-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 837,
+  "fields": {
+    "person": 87,
+    "grade": 79,
+    "course": 19,
+    "date": "2026-02-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 838,
+  "fields": {
+    "person": 87,
+    "grade": 50,
+    "course": 19,
+    "date": "2025-12-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 839,
+  "fields": {
+    "person": 87,
+    "grade": 85,
+    "course": 19,
+    "date": "2026-01-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 840,
+  "fields": {
+    "person": 87,
+    "grade": 90,
+    "course": 19,
+    "date": "2025-12-25",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 841,
+  "fields": {
+    "person": 87,
+    "grade": 94,
+    "course": 19,
+    "date": "2026-01-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 842,
+  "fields": {
+    "person": 87,
+    "grade": 83,
+    "course": 19,
+    "date": "2026-02-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 843,
+  "fields": {
+    "person": 87,
+    "grade": 74,
+    "course": 19,
+    "date": "2026-02-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 844,
+  "fields": {
+    "person": 87,
+    "grade": 53,
+    "course": 19,
+    "date": "2025-12-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 845,
+  "fields": {
+    "person": 87,
+    "grade": 82,
+    "course": 19,
+    "date": "2026-01-19",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 846,
+  "fields": {
+    "person": 88,
+    "grade": 54,
+    "course": 14,
+    "date": "2026-01-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 847,
+  "fields": {
+    "person": 88,
+    "grade": 63,
+    "course": 16,
+    "date": "2026-02-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 848,
+  "fields": {
+    "person": 88,
+    "grade": 59,
+    "course": 23,
+    "date": "2025-11-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 849,
+  "fields": {
+    "person": 88,
+    "grade": 69,
+    "course": 14,
+    "date": "2025-12-21",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 850,
+  "fields": {
+    "person": 88,
+    "grade": 60,
+    "course": 14,
+    "date": "2025-11-27",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 851,
+  "fields": {
+    "person": 88,
+    "grade": 99,
+    "course": 23,
+    "date": "2025-12-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 852,
+  "fields": {
+    "person": 88,
+    "grade": 60,
+    "course": 14,
+    "date": "2026-01-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 853,
+  "fields": {
+    "person": 88,
+    "grade": 94,
+    "course": 16,
+    "date": "2026-02-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 854,
+  "fields": {
+    "person": 88,
+    "grade": 88,
+    "course": 16,
+    "date": "2026-01-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 855,
+  "fields": {
+    "person": 88,
+    "grade": 91,
+    "course": 23,
+    "date": "2026-01-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 856,
+  "fields": {
+    "person": 89,
+    "grade": 67,
+    "course": 14,
+    "date": "2026-02-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 857,
+  "fields": {
+    "person": 89,
+    "grade": 52,
+    "course": 15,
+    "date": "2026-02-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 858,
+  "fields": {
+    "person": 89,
+    "grade": 76,
+    "course": 22,
+    "date": "2026-01-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 859,
+  "fields": {
+    "person": 89,
+    "grade": 51,
+    "course": 15,
+    "date": "2026-02-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 860,
+  "fields": {
+    "person": 89,
+    "grade": 98,
+    "course": 14,
+    "date": "2026-01-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 861,
+  "fields": {
+    "person": 89,
+    "grade": 68,
+    "course": 14,
+    "date": "2026-01-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 862,
+  "fields": {
+    "person": 89,
+    "grade": 83,
+    "course": 15,
+    "date": "2025-12-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 863,
+  "fields": {
+    "person": 89,
+    "grade": 53,
+    "course": 14,
+    "date": "2026-02-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 864,
+  "fields": {
+    "person": 89,
+    "grade": 83,
+    "course": 14,
+    "date": "2026-02-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 865,
+  "fields": {
+    "person": 89,
+    "grade": 91,
+    "course": 22,
+    "date": "2026-01-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 866,
+  "fields": {
+    "person": 90,
+    "grade": 95,
+    "course": 19,
+    "date": "2025-12-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 867,
+  "fields": {
+    "person": 90,
+    "grade": 92,
+    "course": 20,
+    "date": "2026-02-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 868,
+  "fields": {
+    "person": 90,
+    "grade": 56,
+    "course": 19,
+    "date": "2026-02-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 869,
+  "fields": {
+    "person": 90,
+    "grade": 69,
+    "course": 20,
+    "date": "2025-12-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 870,
+  "fields": {
+    "person": 90,
+    "grade": 53,
+    "course": 23,
+    "date": "2026-01-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 871,
+  "fields": {
+    "person": 90,
+    "grade": 86,
+    "course": 23,
+    "date": "2026-01-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 872,
+  "fields": {
+    "person": 90,
+    "grade": 92,
+    "course": 23,
+    "date": "2026-01-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 873,
+  "fields": {
+    "person": 90,
+    "grade": 77,
+    "course": 19,
+    "date": "2025-12-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 874,
+  "fields": {
+    "person": 90,
+    "grade": 51,
+    "course": 20,
+    "date": "2025-12-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 875,
+  "fields": {
+    "person": 90,
+    "grade": 95,
+    "course": 19,
+    "date": "2025-12-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 876,
+  "fields": {
+    "person": 91,
+    "grade": 59,
+    "course": 24,
+    "date": "2026-01-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 877,
+  "fields": {
+    "person": 91,
+    "grade": 84,
+    "course": 21,
+    "date": "2026-02-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 878,
+  "fields": {
+    "person": 91,
+    "grade": 74,
+    "course": 15,
+    "date": "2026-01-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 879,
+  "fields": {
+    "person": 91,
+    "grade": 79,
+    "course": 15,
+    "date": "2026-01-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 880,
+  "fields": {
+    "person": 91,
+    "grade": 94,
+    "course": 24,
+    "date": "2026-01-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 881,
+  "fields": {
+    "person": 91,
+    "grade": 87,
+    "course": 24,
+    "date": "2026-01-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 882,
+  "fields": {
+    "person": 91,
+    "grade": 53,
+    "course": 15,
+    "date": "2026-01-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 883,
+  "fields": {
+    "person": 91,
+    "grade": 78,
+    "course": 21,
+    "date": "2026-02-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 884,
+  "fields": {
+    "person": 91,
+    "grade": 57,
+    "course": 15,
+    "date": "2026-02-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 885,
+  "fields": {
+    "person": 91,
+    "grade": 90,
+    "course": 24,
+    "date": "2025-12-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 886,
+  "fields": {
+    "person": 92,
+    "grade": 54,
+    "course": 19,
+    "date": "2025-11-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 887,
+  "fields": {
+    "person": 92,
+    "grade": 60,
+    "course": 20,
+    "date": "2026-01-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 888,
+  "fields": {
+    "person": 92,
+    "grade": 50,
+    "course": 20,
+    "date": "2025-12-24",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 889,
+  "fields": {
+    "person": 92,
+    "grade": 54,
+    "course": 24,
+    "date": "2025-12-31",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 890,
+  "fields": {
+    "person": 92,
+    "grade": 57,
+    "course": 20,
+    "date": "2026-01-25",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 891,
+  "fields": {
+    "person": 92,
+    "grade": 63,
+    "course": 24,
+    "date": "2026-02-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 892,
+  "fields": {
+    "person": 92,
+    "grade": 96,
+    "course": 20,
+    "date": "2026-02-08",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 893,
+  "fields": {
+    "person": 92,
+    "grade": 79,
+    "course": 24,
+    "date": "2026-02-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 894,
+  "fields": {
+    "person": 92,
+    "grade": 78,
+    "course": 24,
+    "date": "2026-01-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 895,
+  "fields": {
+    "person": 92,
+    "grade": 53,
+    "course": 24,
+    "date": "2025-12-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 896,
+  "fields": {
+    "person": 93,
+    "grade": 64,
+    "course": 25,
+    "date": "2025-12-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 897,
+  "fields": {
+    "person": 93,
+    "grade": 71,
+    "course": 17,
+    "date": "2025-12-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 898,
+  "fields": {
+    "person": 93,
+    "grade": 85,
+    "course": 25,
+    "date": "2026-01-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 899,
+  "fields": {
+    "person": 93,
+    "grade": 83,
+    "course": 20,
+    "date": "2026-02-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 900,
+  "fields": {
+    "person": 93,
+    "grade": 98,
+    "course": 15,
+    "date": "2025-12-04",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 901,
+  "fields": {
+    "person": 93,
+    "grade": 57,
+    "course": 17,
+    "date": "2025-12-14",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 902,
+  "fields": {
+    "person": 93,
+    "grade": 81,
+    "course": 20,
+    "date": "2026-01-19",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 903,
+  "fields": {
+    "person": 93,
+    "grade": 67,
+    "course": 25,
+    "date": "2026-01-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 904,
+  "fields": {
+    "person": 93,
+    "grade": 97,
+    "course": 20,
+    "date": "2026-02-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 905,
+  "fields": {
+    "person": 93,
+    "grade": 93,
+    "course": 15,
+    "date": "2026-01-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 906,
+  "fields": {
+    "person": 94,
+    "grade": 78,
+    "course": 20,
+    "date": "2026-01-31",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 907,
+  "fields": {
+    "person": 94,
+    "grade": 65,
+    "course": 20,
+    "date": "2026-01-21",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 908,
+  "fields": {
+    "person": 94,
+    "grade": 89,
+    "course": 20,
+    "date": "2026-02-04",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 909,
+  "fields": {
+    "person": 94,
+    "grade": 85,
+    "course": 20,
+    "date": "2025-12-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 910,
+  "fields": {
+    "person": 94,
+    "grade": 88,
+    "course": 20,
+    "date": "2026-02-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 911,
+  "fields": {
+    "person": 94,
+    "grade": 52,
+    "course": 20,
+    "date": "2025-12-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 912,
+  "fields": {
+    "person": 94,
+    "grade": 96,
+    "course": 20,
+    "date": "2025-12-21",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 913,
+  "fields": {
+    "person": 94,
+    "grade": 51,
+    "course": 20,
+    "date": "2026-02-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 914,
+  "fields": {
+    "person": 94,
+    "grade": 97,
+    "course": 20,
+    "date": "2025-12-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 915,
+  "fields": {
+    "person": 94,
+    "grade": 72,
+    "course": 20,
+    "date": "2026-02-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 916,
+  "fields": {
+    "person": 95,
+    "grade": 53,
+    "course": 23,
+    "date": "2026-01-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 917,
+  "fields": {
+    "person": 95,
+    "grade": 69,
+    "course": 14,
+    "date": "2026-02-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 918,
+  "fields": {
+    "person": 95,
+    "grade": 60,
+    "course": 23,
+    "date": "2026-01-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 919,
+  "fields": {
+    "person": 95,
+    "grade": 74,
+    "course": 14,
+    "date": "2026-02-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 920,
+  "fields": {
+    "person": 95,
+    "grade": 65,
+    "course": 21,
+    "date": "2026-02-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 921,
+  "fields": {
+    "person": 95,
+    "grade": 62,
+    "course": 14,
+    "date": "2026-02-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 922,
+  "fields": {
+    "person": 95,
+    "grade": 61,
+    "course": 14,
+    "date": "2026-02-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 923,
+  "fields": {
+    "person": 95,
+    "grade": 79,
+    "course": 17,
+    "date": "2025-12-21",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 924,
+  "fields": {
+    "person": 95,
+    "grade": 67,
+    "course": 17,
+    "date": "2025-11-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 925,
+  "fields": {
+    "person": 95,
+    "grade": 94,
+    "course": 14,
+    "date": "2025-12-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 926,
+  "fields": {
+    "person": 96,
+    "grade": 71,
+    "course": 17,
+    "date": "2025-12-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 927,
+  "fields": {
+    "person": 96,
+    "grade": 61,
+    "course": 17,
+    "date": "2026-01-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 928,
+  "fields": {
+    "person": 96,
+    "grade": 54,
+    "course": 17,
+    "date": "2025-12-27",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 929,
+  "fields": {
+    "person": 96,
+    "grade": 93,
+    "course": 17,
+    "date": "2025-12-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 930,
+  "fields": {
+    "person": 96,
+    "grade": 96,
+    "course": 17,
+    "date": "2025-12-05",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 931,
+  "fields": {
+    "person": 96,
+    "grade": 55,
+    "course": 17,
+    "date": "2025-12-25",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 932,
+  "fields": {
+    "person": 96,
+    "grade": 62,
+    "course": 17,
+    "date": "2025-12-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 933,
+  "fields": {
+    "person": 96,
+    "grade": 62,
+    "course": 17,
+    "date": "2025-12-11",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 934,
+  "fields": {
+    "person": 96,
+    "grade": 79,
+    "course": 17,
+    "date": "2025-12-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 935,
+  "fields": {
+    "person": 96,
+    "grade": 83,
+    "course": 17,
+    "date": "2026-02-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 936,
+  "fields": {
+    "person": 97,
+    "grade": 64,
+    "course": 19,
+    "date": "2026-02-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 937,
+  "fields": {
+    "person": 97,
+    "grade": 100,
+    "course": 19,
+    "date": "2025-12-31",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 938,
+  "fields": {
+    "person": 97,
+    "grade": 74,
+    "course": 19,
+    "date": "2025-12-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 939,
+  "fields": {
+    "person": 97,
+    "grade": 73,
+    "course": 19,
+    "date": "2026-01-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 940,
+  "fields": {
+    "person": 97,
+    "grade": 77,
+    "course": 19,
+    "date": "2025-12-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 941,
+  "fields": {
+    "person": 97,
+    "grade": 51,
+    "course": 19,
+    "date": "2026-02-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 942,
+  "fields": {
+    "person": 97,
+    "grade": 86,
+    "course": 19,
+    "date": "2026-02-03",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 943,
+  "fields": {
+    "person": 97,
+    "grade": 79,
+    "course": 19,
+    "date": "2026-02-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 944,
+  "fields": {
+    "person": 97,
+    "grade": 68,
+    "course": 19,
+    "date": "2026-02-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 945,
+  "fields": {
+    "person": 97,
+    "grade": 77,
+    "course": 19,
+    "date": "2026-01-24",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 946,
+  "fields": {
+    "person": 98,
+    "grade": 88,
+    "course": 24,
+    "date": "2026-02-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 947,
+  "fields": {
+    "person": 98,
+    "grade": 73,
+    "course": 24,
+    "date": "2026-02-19",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 948,
+  "fields": {
+    "person": 98,
+    "grade": 52,
+    "course": 24,
+    "date": "2025-11-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 949,
+  "fields": {
+    "person": 98,
+    "grade": 94,
+    "course": 21,
+    "date": "2025-12-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 950,
+  "fields": {
+    "person": 98,
+    "grade": 56,
+    "course": 21,
+    "date": "2026-02-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 951,
+  "fields": {
+    "person": 98,
+    "grade": 70,
+    "course": 21,
+    "date": "2025-12-24",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 952,
+  "fields": {
+    "person": 98,
+    "grade": 93,
+    "course": 21,
+    "date": "2026-01-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 953,
+  "fields": {
+    "person": 98,
+    "grade": 94,
+    "course": 21,
+    "date": "2026-01-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 954,
+  "fields": {
+    "person": 98,
+    "grade": 59,
+    "course": 24,
+    "date": "2026-01-24",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 955,
+  "fields": {
+    "person": 98,
+    "grade": 100,
+    "course": 24,
+    "date": "2026-01-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 956,
+  "fields": {
+    "person": 99,
+    "grade": 61,
+    "course": 24,
+    "date": "2026-01-06",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 957,
+  "fields": {
+    "person": 99,
+    "grade": 94,
+    "course": 24,
+    "date": "2025-12-25",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 958,
+  "fields": {
+    "person": 99,
+    "grade": 89,
+    "course": 15,
+    "date": "2025-12-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 959,
+  "fields": {
+    "person": 99,
+    "grade": 77,
+    "course": 24,
+    "date": "2025-12-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 960,
+  "fields": {
+    "person": 99,
+    "grade": 86,
+    "course": 15,
+    "date": "2026-02-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 961,
+  "fields": {
+    "person": 99,
+    "grade": 85,
+    "course": 24,
+    "date": "2025-12-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 962,
+  "fields": {
+    "person": 99,
+    "grade": 56,
+    "course": 15,
+    "date": "2025-12-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 963,
+  "fields": {
+    "person": 99,
+    "grade": 81,
+    "course": 15,
+    "date": "2026-01-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 964,
+  "fields": {
+    "person": 99,
+    "grade": 53,
+    "course": 15,
+    "date": "2025-11-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 965,
+  "fields": {
+    "person": 99,
+    "grade": 64,
+    "course": 24,
+    "date": "2025-12-24",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 966,
+  "fields": {
+    "person": 100,
+    "grade": 68,
+    "course": 17,
+    "date": "2026-01-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 967,
+  "fields": {
+    "person": 100,
+    "grade": 60,
+    "course": 16,
+    "date": "2026-01-09",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 968,
+  "fields": {
+    "person": 100,
+    "grade": 72,
+    "course": 17,
+    "date": "2026-01-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 969,
+  "fields": {
+    "person": 100,
+    "grade": 79,
+    "course": 15,
+    "date": "2025-12-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 970,
+  "fields": {
+    "person": 100,
+    "grade": 71,
+    "course": 22,
+    "date": "2026-01-25",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 971,
+  "fields": {
+    "person": 100,
+    "grade": 84,
+    "course": 15,
+    "date": "2025-11-29",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 972,
+  "fields": {
+    "person": 100,
+    "grade": 89,
+    "course": 17,
+    "date": "2025-12-07",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 973,
+  "fields": {
+    "person": 100,
+    "grade": 90,
+    "course": 15,
+    "date": "2026-01-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 974,
+  "fields": {
+    "person": 100,
+    "grade": 64,
+    "course": 16,
+    "date": "2026-01-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 975,
+  "fields": {
+    "person": 100,
+    "grade": 89,
+    "course": 15,
+    "date": "2026-01-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 976,
+  "fields": {
+    "person": 101,
+    "grade": 78,
+    "course": 14,
+    "date": "2025-12-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 977,
+  "fields": {
+    "person": 101,
+    "grade": 60,
+    "course": 25,
+    "date": "2026-02-15",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 978,
+  "fields": {
+    "person": 101,
+    "grade": 74,
+    "course": 25,
+    "date": "2025-12-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 979,
+  "fields": {
+    "person": 101,
+    "grade": 70,
+    "course": 14,
+    "date": "2025-12-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 980,
+  "fields": {
+    "person": 101,
+    "grade": 100,
+    "course": 17,
+    "date": "2026-01-12",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 981,
+  "fields": {
+    "person": 101,
+    "grade": 55,
+    "course": 14,
+    "date": "2026-02-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 982,
+  "fields": {
+    "person": 101,
+    "grade": 52,
+    "course": 14,
+    "date": "2025-12-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 983,
+  "fields": {
+    "person": 101,
+    "grade": 71,
+    "course": 14,
+    "date": "2025-12-17",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 984,
+  "fields": {
+    "person": 101,
+    "grade": 89,
+    "course": 25,
+    "date": "2025-12-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 985,
+  "fields": {
+    "person": 101,
+    "grade": 86,
+    "course": 14,
+    "date": "2026-01-22",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 986,
+  "fields": {
+    "person": 102,
+    "grade": 80,
+    "course": 20,
+    "date": "2026-02-23",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 987,
+  "fields": {
+    "person": 102,
+    "grade": 85,
+    "course": 20,
+    "date": "2025-12-25",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 988,
+  "fields": {
+    "person": 102,
+    "grade": 87,
+    "course": 20,
+    "date": "2026-02-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 989,
+  "fields": {
+    "person": 102,
+    "grade": 62,
+    "course": 20,
+    "date": "2025-12-20",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 990,
+  "fields": {
+    "person": 102,
+    "grade": 90,
+    "course": 20,
+    "date": "2026-02-10",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 991,
+  "fields": {
+    "person": 102,
+    "grade": 78,
+    "course": 20,
+    "date": "2025-12-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 992,
+  "fields": {
+    "person": 102,
+    "grade": 76,
+    "course": 20,
+    "date": "2026-01-02",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 993,
+  "fields": {
+    "person": 102,
+    "grade": 87,
+    "course": 20,
+    "date": "2026-02-04",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 994,
+  "fields": {
+    "person": 102,
+    "grade": 67,
+    "course": 20,
+    "date": "2025-11-26",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 995,
+  "fields": {
+    "person": 102,
+    "grade": 53,
+    "course": 20,
+    "date": "2026-02-21",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 996,
+  "fields": {
+    "person": 103,
+    "grade": 62,
+    "course": 18,
+    "date": "2026-02-16",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 997,
+  "fields": {
+    "person": 103,
+    "grade": 58,
+    "course": 23,
+    "date": "2025-12-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 998,
+  "fields": {
+    "person": 103,
+    "grade": 53,
+    "course": 23,
+    "date": "2025-11-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 999,
+  "fields": {
+    "person": 103,
+    "grade": 92,
+    "course": 18,
+    "date": "2025-11-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 1000,
+  "fields": {
+    "person": 103,
+    "grade": 58,
+    "course": 23,
+    "date": "2026-01-13",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 1001,
+  "fields": {
+    "person": 103,
+    "grade": 95,
+    "course": 18,
+    "date": "2026-02-19",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 1002,
+  "fields": {
+    "person": 103,
+    "grade": 92,
+    "course": 18,
+    "date": "2026-02-18",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 1003,
+  "fields": {
+    "person": 103,
+    "grade": 58,
+    "course": 18,
+    "date": "2026-01-01",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 1004,
+  "fields": {
+    "person": 103,
+    "grade": 91,
+    "course": 18,
+    "date": "2025-12-28",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+},
+{
+  "model": "main.grade",
+  "pk": 1005,
+  "fields": {
+    "person": 103,
+    "grade": 53,
+    "course": 23,
+    "date": "2025-12-30",
+    "date_add": "2026-02-24",
+    "date_update": "2026-02-24"
+  }
+}
+]
