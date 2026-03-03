@@ -10,8 +10,11 @@ urlpatterns = [
     path('students/', students, name='students'),
     path('students2/', StudentsView.as_view(), name='students2'),
     
+    
     path('students/<int:id>/', student, name='student'),
-    path('students2/<int:pk>/', StudentView.as_view(), name='student2'),
+    # path('students2/<int:pk>/', StudentView.as_view(), name='student2'),
+    path('students2/<slug:name_slug>/', StudentView.as_view(), name='student2'),
+    
     path('students/add/', StudentAddView.as_view(), name='student_add'),        
     path('students/<int:id>/edit/', StudentEditView.as_view(), name='student_edit'),      
     # # то же - через функцию

@@ -70,8 +70,8 @@ class Student(models.Model):
         return f"{self.surname} {self.name}"
     
     def get_absolute_url(self):
-        return reverse('student2', kwargs={"pk":self.id})
-        # return reverse('student2', kwargs={"name_slug":self.slug})
+        # return reverse('student2', kwargs={"pk":self.id})
+        return reverse('student2', kwargs={"name_slug":self.slug})
         
     def get_edit_url(self):        
         return reverse('student_edit', kwargs={"id":self.pk})   

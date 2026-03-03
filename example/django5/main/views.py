@@ -131,8 +131,8 @@ class StudentView(DetailView):
     model = Student
     template_name = 'main/student.html'              
     context_object_name = 'student'    
-    pk_url_kwarg = 'pk' # т.к. тут slug ссылка по id уже не нужна
-    # slug_url_kwarg = 'name_slug'
+    # pk_url_kwarg = 'pk' # т.к. тут slug ссылка по id уже не нужна
+    slug_url_kwarg = 'name_slug'
     # login_url = '/login/'          
     
 

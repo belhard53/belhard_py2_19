@@ -26,6 +26,9 @@ class StudentAdmin(admin.ModelAdmin):
     filter_horizontal = ('course',) # при добавление перекидывать с поля в поле
     # filter_vertical = ('course',) # при добавление перекидывать с поля в поле
     
+    # для формирования slug
+    prepopulated_fields = {"slug": ("name", "surname")}
+    
     def average_grade(self, obj):        
         gs = [g.grade for g in obj.grades.all()]
         return round(sum(gs)/len(gs),2) if gs else '---'
