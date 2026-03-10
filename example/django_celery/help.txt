@@ -1,0 +1,5 @@
+     pip install django celery redis
+     
+     celery -A config worker -l info # запуск
+     celery -A config inspect active # смотреть все
+     celery -A config inspect ping # проверить

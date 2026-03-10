@@ -1,0 +1,36 @@
+запуск из консоли
+
+    # Запуск с пересборкой образов
+    docker-compose up --build
+    
+    # Запуск всех сервисов в фоне
+    docker-compose up -d
+
+    # Запуск с пересборкой образов в фоне
+    docker-compose up -d --build
+
+    # Запуск конкретного сервиса
+    docker-compose up -d service_name
+
+    # Остановка всех сервисов
+    docker-compose down
+
+    # Остановка с удалением volumes
+    docker-compose down -v
+
+    # Перезапуск сервисов
+    docker-compose restart
+
+    # Приостановка сервисов
+    docker-compose pause
+
+    # Возобновление сервисов
+    docker-compose unpause
+
+    # статтусы
+    docker compose ps
+
+    # логи
+    docker compose logs -f web
+
+--------------------------------------------------------

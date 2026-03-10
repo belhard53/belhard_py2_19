@@ -1,0 +1,9 @@
+https://github.com/belhard53/flask2_docker_py19.git
+
+------------------------------------
+
+для сборки и запуска контейнеров 
+    docker-compose up --build
+
+для запуска вторично после сборки если не было изменений
+    docker-compose up 
